@@ -2,7 +2,7 @@
   {
     "path": "/",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 0.75,
     "seo": 0.79
@@ -10,7 +10,7 @@
   {
     "path": "/about",
     "score": 0.89,
-    "performance": 0.95,
+    "performance": 0.97,
     "accessibility": 0.92,
     "best-practices": 0.75,
     "seo": 0.93
@@ -49,6 +49,14 @@
   },
   {
     "path": "/about/hud_secretary",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.93
+  },
+  {
+    "path": "/about/hud_secretary/powersec",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -65,30 +73,6 @@
   },
   {
     "path": "/about/leadership",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.58,
-    "seo": 0.86
-  },
-  {
-    "path": "/accessibility",
-    "score": 0.9,
-    "performance": 1,
-    "accessibility": 0.92,
-    "best-practices": 0.75,
-    "seo": 0.93
-  },
-  {
-    "path": "/assist",
-    "score": 0.88,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.75,
-    "seo": 0.86
-  },
-  {
-    "path": "/assist/printing",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -96,7 +80,23 @@
     "seo": null
   },
   {
-    "path": "/assist/privacy",
+    "path": "/about/leadership/marcia_fudge",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/accessibility",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/assist/systems",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -113,11 +113,11 @@
   },
   {
     "path": "/contact",
-    "score": 0.89,
-    "performance": 0.96,
-    "accessibility": 0.92,
-    "best-practices": 0.75,
-    "seo": 0.93
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/contact/address",
@@ -144,14 +144,6 @@
     "seo": null
   },
   {
-    "path": "/coronavirus/homeowners",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/coronavirus/housing_stakeholders",
     "score": 0,
     "performance": null,
@@ -161,14 +153,6 @@
   },
   {
     "path": "/customer_experience",
-    "score": 0.79,
-    "performance": 0.91,
-    "accessibility": 0.84,
-    "best-practices": 0.58,
-    "seo": 0.84
-  },
-  {
-    "path": "/delegations-of-authority",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -184,23 +168,15 @@
     "seo": null
   },
   {
-    "path": "/directory/800/800num2",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/directory/800/800num3",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/directory/800/800num4",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/directory/800/800num5",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -232,14 +208,6 @@
     "seo": null
   },
   {
-    "path": "/directory/800/parainformacion",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/directory/director",
     "score": 0,
     "performance": null,
@@ -248,95 +216,7 @@
     "seo": null
   },
   {
-    "path": "/envisioncenters",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/espanol",
-    "score": 0.9,
-    "performance": 0.98,
-    "accessibility": 0.92,
-    "best-practices": 0.75,
-    "seo": 0.93
-  },
-  {
-    "path": "/espanol/buying",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/complaints/housediscrim",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/consejero",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/encuentre-agencia",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/encuentre-oficina",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/foreclosure",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/renting",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/section8",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/espanol/topics/healthyhome",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/fairhousing",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -346,10 +226,10 @@
   {
     "path": "/fairhousing/fileacomplaint",
     "score": 0.82,
-    "performance": 0.9,
+    "performance": 0.99,
     "accessibility": 0.92,
     "best-practices": 0.67,
-    "seo": 0.79
+    "seo": 0.71
   },
   {
     "path": "/faqs",
@@ -369,22 +249,6 @@
   },
   {
     "path": "/federal_housing_administration/healthcare_facilities",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/federal_housing_administration/healthcare_facilities/residential_care",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/federal_housing_administration/healthcare_facilities/residential_care/fha_insurance",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -456,6 +320,22 @@
     "seo": null
   },
   {
+    "path": "/federal_housing_administration/healthcare_facilities/section_242/news",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/federal_housing_administration/healthcare_facilities/section_242/our_clients",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
     "path": "/findshelter",
     "score": 0,
     "performance": null,
@@ -464,7 +344,23 @@
     "seo": null
   },
   {
-    "path": "/gearsofgovernment",
+    "path": "/grants",
+    "score": 0.84,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.67,
+    "seo": 0.79
+  },
+  {
+    "path": "/hcv",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/homeownerhelp",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -473,6 +369,14 @@
   },
   {
     "path": "/HUD-FY22-26-Strategic-Plan-Focus-Areas",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.91,
+    "best-practices": 0.67,
+    "seo": 0.93
+  },
+  {
+    "path": "/hudprograms",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -480,7 +384,15 @@
     "seo": null
   },
   {
-    "path": "/hudprograms",
+    "path": "/i_want_to/find_rental_assistance",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/i_want_to/talk_to_a_housing_counselor",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -497,14 +409,6 @@
   },
   {
     "path": "/library/bookshelf11",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/library/bookshelf11/webman",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -529,14 +433,14 @@
   },
   {
     "path": "/press",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
+    "score": 0.84,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.79
   },
   {
-    "path": "/press/press_releases_media_advisories/HUD_No_22_191_SP",
+    "path": "/press/press_releases_media_advisories",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -553,6 +457,14 @@
   },
   {
     "path": "/press/press_releases_media_advisories/HUD_No_23_165",
+    "score": 0.9,
+    "performance": 0.97,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.93
+  },
+  {
+    "path": "/press/press_releases_media_advisories/HUD_No_23_166",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -560,27 +472,19 @@
     "seo": null
   },
   {
-    "path": "/press/press_releases_media_advisories/HUD_No_23_166",
-    "score": 0.87,
-    "performance": 0.95,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.92
-  },
-  {
     "path": "/press/press_releases_media_advisories/HUD_No_23_168",
-    "score": 0.83,
-    "performance": 0.95,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.77
-  },
-  {
-    "path": "/privacy",
     "score": 0.86,
     "performance": 0.99,
     "accessibility": 0.92,
-    "best-practices": 0.67,
+    "best-practices": 0.75,
+    "seo": 0.79
+  },
+  {
+    "path": "/privacy",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
     "seo": 0.86
   },
   {
@@ -600,28 +504,12 @@
     "seo": null
   },
   {
-    "path": "/program_offices/administration",
-    "score": 0.84,
-    "performance": 0.99,
+    "path": "/program_offices/administration/employment_verification",
+    "score": 0.82,
+    "performance": 0.98,
     "accessibility": 0.92,
     "best-practices": 0.67,
-    "seo": 0.79
-  },
-  {
-    "path": "/program_offices/administration/admabout",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/administration/employment_verification",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
+    "seo": 0.69
   },
   {
     "path": "/program_offices/administration/foia",
@@ -632,15 +520,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/administration/foia/feeswaivers",
-    "score": 0.81,
-    "performance": 0.99,
-    "accessibility": 0.9,
-    "best-practices": 0.67,
-    "seo": 0.69
-  },
-  {
-    "path": "/program_offices/administration/foia/foiareg",
+    "path": "/program_offices/administration/foia/foiaappeals",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -656,23 +536,23 @@
     "seo": null
   },
   {
-    "path": "/program_offices/administration/foia/multitrackprocessing",
-    "score": 0.82,
-    "performance": 1,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.69
+    "path": "/program_offices/administration/foia/readingroom",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/administration/foia/referencematerials",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/administration/foia/requests",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.69
-  },
-  {
-    "path": "/program_offices/administration/handbks_forms",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -680,7 +560,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/administration/hudclips/handbooks/hsgh",
+    "path": "/program_offices/administration/foia/resources",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -688,39 +568,39 @@
     "seo": null
   },
   {
-    "path": "/program_offices/administration/hudclips/letters/mortgagee",
+    "path": "/program_offices/administration/hudclips",
     "score": 0,
     "performance": null,
     "accessibility": null,
     "best-practices": null,
     "seo": null
-  },
-  {
-    "path": "/program_offices/administration/hudclips/notices/hsg",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/administration/jobs/flexiplace",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/administration/jobs/newhires",
-    "score": 0.83,
-    "performance": 0.99,
-    "accessibility": 0.9,
-    "best-practices": 0.67,
-    "seo": 0.76
   },
   {
     "path": "/program_offices/cfo",
+    "score": 0.85,
+    "performance": 0.99,
+    "accessibility": 0.88,
+    "best-practices": 0.75,
+    "seo": 0.76
+  },
+  {
+    "path": "/program_offices/cfo/about/cfodir",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/cfo/accounting",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/cfo/budget",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -736,6 +616,22 @@
     "seo": null
   },
   {
+    "path": "/program_offices/cio",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/comm_planning",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
     "path": "/program_offices/cpo",
     "score": 0,
     "performance": null,
@@ -744,12 +640,20 @@
     "seo": null
   },
   {
-    "path": "/program_offices/cpo/about/ocpo_contracting_contacts",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.77
+    "path": "/program_offices/economic_development",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/eeo",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/eeo/nofearactfy",
@@ -761,11 +665,11 @@
   },
   {
     "path": "/program_offices/fair_housing_equal_opp/affh",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.86
   },
   {
     "path": "/program_offices/fair_housing_equal_opp/complaint_filing_languages_other_english",
@@ -800,76 +704,68 @@
     "seo": null
   },
   {
-    "path": "/program_offices/fair_housing_equal_opp/FHEO_Requirements_for_Section_202_Supportive_Housing_for_the_Elderly_Program",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/fair_housing_equal_opp/get_help_filing_complaint",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/fair_housing_equal_opp/online-complaint",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/program_offices/field_policy_mgt/localoffices",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/healthy_homes/healthyhomes/lead",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/housing/comp/asset/hsgloan",
-    "score": 0.84,
+    "score": 0.83,
     "performance": 0.99,
-    "accessibility": 0.9,
+    "accessibility": 0.93,
     "best-practices": 0.67,
-    "seo": 0.78
+    "seo": 0.71
   },
   {
-    "path": "/program_offices/housing/comp/debnrate",
-    "score": 0.85,
-    "performance": 0.98,
-    "accessibility": 0.9,
-    "best-practices": 0.67,
-    "seo": 0.84
+    "path": "/program_offices/housing",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/comp",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/comp/asset",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/comp/premiums",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/comp/refunds/fhafact",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/housing/contacts",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.79
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/housing/dirhousi",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.79
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/housing/fhahistory",
@@ -880,15 +776,15 @@
     "seo": null
   },
   {
+    "path": "/program_offices/housing/hsgabout",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
     "path": "/program_offices/housing/hsgrroom",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.79
-  },
-  {
-    "path": "/program_offices/housing/hsgrroom/commercialmortgagerpt",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -896,7 +792,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/hsgrroom/fhaamr",
+    "path": "/program_offices/housing/hsgsystm",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -904,7 +800,31 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/hsgrroom/fhaprodrpt",
+    "path": "/program_offices/housing/mfh",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/mfh/exp/mfhdiscl",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/mfh/fhaosmf",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/mfh/grants",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -921,11 +841,11 @@
   },
   {
     "path": "/program_offices/housing/mfh/grants/section811ptl",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.7
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/housing/mfh/grants/TRN",
@@ -936,7 +856,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/mfh/mfinfo",
+    "path": "/program_offices/housing/mfh/hsgmfbus",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -944,7 +864,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/mfh/presrv",
+    "path": "/program_offices/housing/mfh/hsgrent",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -952,7 +872,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/mfh/presrv/presmfh",
+    "path": "/program_offices/housing/mfh/hsgrent/mfhpropertysearch",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -960,7 +880,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/rmra/mhs",
+    "path": "/program_offices/housing/mfh/map/maphome",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -968,7 +888,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/rmra/mhs/csp",
+    "path": "/program_offices/housing/mfh/mfdata",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -976,15 +896,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/rmra/mhs/csp/mfsheet",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.76
-  },
-  {
-    "path": "/program_offices/housing/rmra/mhs/csp/mhcqa",
+    "path": "/program_offices/housing/mfh/mfhsec8",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -992,7 +904,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/rmra/mhs/csp/mhsalt",
+    "path": "/program_offices/housing/mfh/Multifamily_Housing_COVID-19_Guidance",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1000,7 +912,15 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/rmra/mhs/csp/mhssaa",
+    "path": "/program_offices/housing/mfh/RAD_Post_Conversion",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/rmra/mhs/cc1",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1009,22 +929,6 @@
   },
   {
     "path": "/program_offices/housing/rmra/mhs/mhdrp",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.76
-  },
-  {
-    "path": "/program_offices/housing/sfh",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/housing/sfh/203k",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1040,7 +944,39 @@
     "seo": null
   },
   {
-    "path": "/program_offices/housing/sfh/hcc/OHC_PREDLEND",
+    "path": "/program_offices/housing/sfh/hcc/first_time_homebuyers_1NEW",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/sfh/hcc/hcc_home",
+    "score": 0.84,
+    "performance": 0.99,
+    "accessibility": 0.9,
+    "best-practices": 0.67,
+    "seo": 0.78
+  },
+  {
+    "path": "/program_offices/housing/sfh/hcc/homelessness01",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/sfh/hcc/homeowners_0",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/sfh/ins",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1056,7 +992,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/officeofadministration",
+    "path": "/program_offices/housing/sfh/lender/nw_home",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1064,7 +1000,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/officeofadministration/privacy_act/cma",
+    "path": "/program_offices/housing/sfh/momaterial",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1072,7 +1008,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/officeofadministration/privacy_act/documents",
+    "path": "/program_offices/housing/sfh/nsc/qaho0121",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1080,7 +1016,23 @@
     "seo": null
   },
   {
-    "path": "/program_offices/officeofadministration/privacy_act/documents/privprin",
+    "path": "/program_offices/housing/sfh/owning",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/housing/sfh/reo/abtrevt",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/officeofadministration/cao",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1113,11 +1065,11 @@
   },
   {
     "path": "/program_offices/public_indian_housing/about",
-    "score": 0.84,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.78
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/program_offices/public_indian_housing/about/css",
@@ -1129,30 +1081,6 @@
   },
   {
     "path": "/program_offices/public_indian_housing/about/field_office",
-    "score": 0.84,
-    "performance": 0.97,
-    "accessibility": 0.93,
-    "best-practices": 0.67,
-    "seo": 0.78
-  },
-  {
-    "path": "/program_offices/public_indian_housing/centers/sac/homeownership",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.9,
-    "best-practices": 0.67,
-    "seo": 0.7
-  },
-  {
-    "path": "/program_offices/public_indian_housing/ih/cd",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.7
-  },
-  {
-    "path": "/program_offices/public_indian_housing/ih/codetalk/nahasda/guidance",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1160,7 +1088,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/ih/codetalk/onap",
+    "path": "/program_offices/public_indian_housing/about/headquarters",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1168,15 +1096,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/ih/codetalk/onap/map/nationalmap",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.69
-  },
-  {
-    "path": "/program_offices/public_indian_housing/ih/grants",
+    "path": "/program_offices/public_indian_housing/bre",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1184,15 +1104,23 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/ih/grants/icdbg",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.69
+    "path": "/program_offices/public_indian_housing/centers",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/ih/grants/ihbg",
+    "path": "/program_offices/public_indian_housing/centers/sac",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/ih",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1201,14 +1129,6 @@
   },
   {
     "path": "/program_offices/public_indian_housing/ih/homeownership",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/ih/homeownership/titlevi",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1232,23 +1152,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/ih/regs/notices",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/program_offices/public_indian_housing/jpi",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/pha",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1280,28 +1184,12 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/programs",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/programs/hcv/about",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
     "path": "/program_offices/public_indian_housing/programs/hcv/fmd",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
+    "score": 0.73,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.69
   },
   {
     "path": "/program_offices/public_indian_housing/programs/hcv/mod",
@@ -1320,6 +1208,22 @@
     "seo": null
   },
   {
+    "path": "/program_offices/public_indian_housing/programs/hcv/qad",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
     "path": "/program_offices/public_indian_housing/programs/ph/am",
     "score": 0,
     "performance": null,
@@ -1328,31 +1232,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/programs/ph/am/budgeting",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/programs/ph/am/funding",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/programs/ph/am/mgmt",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/program_offices/public_indian_housing/programs/ph/capfund/aboutus",
+    "path": "/program_offices/public_indian_housing/programs/ph/am/accounting",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1368,15 +1248,23 @@
     "seo": null
   },
   {
+    "path": "/program_offices/public_indian_housing/programs/ph/capfund/emfunding",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
     "path": "/program_offices/public_indian_housing/programs/ph/capfund/notices",
-    "score": 0.83,
+    "score": 0.82,
     "performance": 0.99,
     "accessibility": 0.9,
     "best-practices": 0.67,
-    "seo": 0.77
+    "seo": 0.7
   },
   {
-    "path": "/program_offices/public_indian_housing/programs/ph/capfund/ocir",
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/about",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1384,7 +1272,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/programs/ph/capfund/physicalassessment",
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/admin",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1392,7 +1280,7 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/programs/ph/cn",
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/demolition",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1400,7 +1288,95 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/programs/ph/hope6",
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/fy01",
+    "score": 0.82,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/fy01/demo_applicants",
+    "score": 0.8,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.68
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/fy09",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/hope6/grants/mainstreet",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/mtw/faq",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/mtw/history",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/mtw/mtwagencies",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/pheb",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/programs/ph/ross",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/publications",
+    "score": 0.8,
+    "performance": 0.93,
+    "accessibility": 0.9,
+    "best-practices": 0.67,
+    "seo": 0.7
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/aboutreac",
+    "score": 0.82,
+    "performance": 0.99,
+    "accessibility": 0.92,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/library/lib_phyi",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1409,6 +1385,14 @@
   },
   {
     "path": "/program_offices/public_indian_housing/reac/nspire",
+    "score": 0.75,
+    "performance": 0.88,
+    "accessibility": 0.86,
+    "best-practices": 0.58,
+    "seo": 0.7
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/products/pass/inspectors/insp-cert",
     "score": 0,
     "performance": null,
     "accessibility": null,
@@ -1416,12 +1400,52 @@
     "seo": null
   },
   {
-    "path": "/program_offices/public_indian_housing/systems/pic/haprofiles",
-    "score": 0.82,
-    "performance": 0.99,
-    "accessibility": 0.92,
-    "best-practices": 0.67,
-    "seo": 0.69
+    "path": "/program_offices/public_indian_housing/reac/products/pass/inspectors/insp-cert/webinars",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/products/prodpass",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/products/prodpha",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/public_indian_housing/reac/products/prodqass",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/spm/gmomgmt",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
+  },
+  {
+    "path": "/program_offices/spm/pmd",
+    "score": 0,
+    "performance": null,
+    "accessibility": null,
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/rent_relief",
@@ -1481,14 +1505,6 @@
   },
   {
     "path": "/topics/grants",
-    "score": 0,
-    "performance": null,
-    "accessibility": null,
-    "best-practices": null,
-    "seo": null
-  },
-  {
-    "path": "/topics/home_improvements",
     "score": 0,
     "performance": null,
     "accessibility": null,
