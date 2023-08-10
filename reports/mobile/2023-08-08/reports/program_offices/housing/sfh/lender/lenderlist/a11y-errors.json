@@ -1,0 +1,441 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-398-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-292-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,3,TR,2,TD,1,A",
+            "selector": "tbody > tr > td.search > a",
+            "boundingRect": {
+              "top": 749,
+              "bottom": 770,
+              "left": 421,
+              "right": 666,
+              "width": 245,
+              "height": 21
+            },
+            "snippet": "<a href=\"javascript:getCountiesForState()\">",
+            "nodeLabel": "List of counties for selected state",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-399-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,9,TR,2,TD",
+            "selector": "table > tbody > tr > td.search",
+            "boundingRect": {
+              "top": 1218,
+              "bottom": 1334,
+              "left": 222,
+              "right": 676,
+              "width": 454,
+              "height": 116
+            },
+            "snippet": "<td class=\"search\">",
+            "nodeLabel": "Reverse Mortgages through FHA's Home Equity Conversion Mortgages (HECM)\nLimits …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-400-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,10,TR,2,TD",
+            "selector": "table > tbody > tr > td.search",
+            "boundingRect": {
+              "top": 1334,
+              "bottom": 1426,
+              "left": 222,
+              "right": 676,
+              "width": 454,
+              "height": 92
+            },
+            "snippet": "<td class=\"search\">",
+            "nodeLabel": "203(k) Rehabilitation Mortgage Insurance Program\nLimits a list to Lenders who h…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-401-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,7,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 998,
+              "bottom": 1011,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"pbox1\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-402-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,7,TR,2,TD,3,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1022,
+              "bottom": 1035,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"pbox2\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-403-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1069,
+              "bottom": 1082,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox1\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-404-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,3,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1093,
+              "bottom": 1106,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox2\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-405-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,6,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1117,
+              "bottom": 1130,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox3\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-406-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,9,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1141,
+              "bottom": 1154,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox4\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-407-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,12,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1165,
+              "bottom": 1178,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox5\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-408-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,8,TR,2,TD,15,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1189,
+              "bottom": 1202,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input checked=\"checked\" name=\"sobox6\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-409-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,9,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1233,
+              "bottom": 1246,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input name=\"hecmon\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-410-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,10,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input",
+            "boundingRect": {
+              "top": 1349,
+              "bottom": 1362,
+              "left": 232,
+              "right": 245,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input name=\"rehab\" type=\"checkbox\">",
+            "nodeLabel": "tbody > tr > td.search > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-390-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,0,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input#lndrnme",
+            "boundingRect": {
+              "top": 596,
+              "bottom": 626,
+              "left": 232,
+              "right": 382,
+              "width": 151,
+              "height": 30
+            },
+            "snippet": "<input id=\"lndrnme\" maxlength=\"40\" name=\"lndrnme\" size=\"15\" tabindex=\"1\" type=\"text\">",
+            "nodeLabel": "tbody > tr > td.search > input#lndrnme",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-391-INPUT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,DIV,3,FORM,4,TABLE,0,TBODY,1,TR,2,TD,0,INPUT",
+            "selector": "tbody > tr > td.search > input#lndrcity",
+            "boundingRect": {
+              "top": 646,
+              "bottom": 676,
+              "left": 232,
+              "right": 382,
+              "width": 151,
+              "height": 30
+            },
+            "snippet": "<input id=\"lndrcity\" maxlength=\"19\" name=\"lndrcity\" size=\"15\" tabindex=\"2\" type=\"text\">",
+            "nodeLabel": "tbody > tr > td.search > input#lndrcity",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

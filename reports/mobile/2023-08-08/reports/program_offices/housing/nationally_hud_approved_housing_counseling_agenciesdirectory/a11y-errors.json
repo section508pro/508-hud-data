@@ -1,0 +1,353 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-398-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-399-STRONG",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,0,TR,2,TD,0,P,0,STRONG",
+            "selector": "tr > td > p > strong",
+            "boundingRect": {
+              "top": 701,
+              "bottom": 722,
+              "left": 548,
+              "right": 612,
+              "width": 63,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Website",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-285-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,1,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 746,
+              "bottom": 767,
+              "left": 438,
+              "right": 667,
+              "width": 229,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.balancepro.org/\" class=\"external\">",
+            "nodeLabel": "https://www.balancepro.org/",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-286-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,2,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 815,
+              "bottom": 836,
+              "left": 438,
+              "right": 622,
+              "width": 184,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.cccsmd.org/\" class=\"external\">",
+            "nodeLabel": "http://www.cccsmd.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-287-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,3,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 908,
+              "bottom": 929,
+              "left": 438,
+              "right": 704,
+              "width": 266,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.navicoresolutions.org/\" class=\"external\">",
+            "nodeLabel": "http://www.navicoresolutions.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-288-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,4,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 977,
+              "bottom": 998,
+              "left": 438,
+              "right": 644,
+              "width": 206,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.greenpath.org/\" class=\"external\">",
+            "nodeLabel": "http://www.greenpath.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-289-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,5,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1022,
+              "bottom": 1043,
+              "left": 438,
+              "right": 642,
+              "width": 204,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://homefreeusa.org/\" class=\"external\">",
+            "nodeLabel": "https://HomeFreeUSA.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-290-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,6,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1112,
+              "left": 438,
+              "right": 673,
+              "width": 235,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://hopeforseniorsstl.org/\" class=\"external\">",
+            "nodeLabel": "https://hopeforseniorsstl.org/",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-291-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,7,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1160,
+              "bottom": 1181,
+              "left": 438,
+              "right": 722,
+              "width": 284,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.monvalleyinitiative.com/\" class=\"external\">",
+            "nodeLabel": "http://www.monvalleyinitiative.com",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-292-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,8,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1238,
+              "left": 438,
+              "right": 720,
+              "width": 282,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.moneymanagement.org/\" class=\"external\">",
+            "nodeLabel": "http://www.moneymanagement.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-293-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,9,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1298,
+              "bottom": 1319,
+              "left": 438,
+              "right": 674,
+              "width": 236,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.nidhousing.com/\" class=\"external\">",
+            "nodeLabel": "https://www.nidhousing.com/",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-294-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,10,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1379,
+              "bottom": 1400,
+              "left": 438,
+              "right": 596,
+              "width": 158,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.nfcc.org/\" class=\"external\">",
+            "nodeLabel": "http://www.nfcc.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-295-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,11,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1436,
+              "bottom": 1457,
+              "left": 438,
+              "right": 636,
+              "width": 198,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.esperanza.us/\" class=\"external\">",
+            "nodeLabel": "http://www.esperanza.us",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-296-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,12,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1493,
+              "bottom": 1514,
+              "left": 438,
+              "right": 597,
+              "width": 159,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.rcac.org/\" class=\"external\">",
+            "nodeLabel": "http://www.rcac.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-297-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,0,TD,1,TABLE,0,TBODY,13,TR,2,TD,0,P,0,STRONG,0,A",
+            "selector": "td > p > strong > a.external",
+            "boundingRect": {
+              "top": 1550,
+              "bottom": 1571,
+              "left": 438,
+              "right": 627,
+              "width": 189,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.telamon.org/\" class=\"external\">",
+            "nodeLabel": "http://www.telamon.org",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 14
+  }
+]

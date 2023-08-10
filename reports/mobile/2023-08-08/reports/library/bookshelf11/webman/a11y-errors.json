@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-30-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 422,
+              "bottom": 469,
+              "left": 346,
+              "right": 393,
+              "width": 46,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Yvette.N.Davis@hud.gov\">",
+            "nodeLabel": "Yvette Davis",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-33-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,3,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 565,
+              "bottom": 637,
+              "left": 346,
+              "right": 437,
+              "width": 91,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:monica.s.harrington-young@hud.gov\">",
+            "nodeLabel": "Monica Harrington-Young",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-35-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,5,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 733,
+              "bottom": 779,
+              "left": 346,
+              "right": 419,
+              "width": 73,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Kevin.E.Stutzman@hud.gov\">",
+            "nodeLabel": "Kevin Stutzman",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-37-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,8,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 972,
+              "bottom": 1018,
+              "left": 346,
+              "right": 394,
+              "width": 48,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Sonya.E.Carter@hud.gov\">",
+            "nodeLabel": "Sonya Carter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-38-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,9,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1043,
+              "bottom": 1089,
+              "left": 346,
+              "right": 397,
+              "width": 51,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Arthur.D.Wade@hud.gov\">",
+            "nodeLabel": "Arthur Wade",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-39-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,10,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1114,
+              "bottom": 1186,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-40-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,11,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1211,
+              "bottom": 1283,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-41-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,12,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1308,
+              "bottom": 1354,
+              "left": 346,
+              "right": 424,
+              "width": 78,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:tenille.e.washburn@hud.gov\">",
+            "nodeLabel": "Tenille Washburn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-42-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,13,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1379,
+              "bottom": 1425,
+              "left": 346,
+              "right": 424,
+              "width": 78,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:tenille.e.washburn@hud.gov\">",
+            "nodeLabel": "Tenille Washburn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-43-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,14,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1450,
+              "bottom": 1522,
+              "left": 346,
+              "right": 420,
+              "width": 74,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Junita.E.Cruz-Latimer@HUD.gov\">",
+            "nodeLabel": "Juanita E. Cruz-Latimer",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-44-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,15,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1547,
+              "bottom": 1593,
+              "left": 346,
+              "right": 420,
+              "width": 74,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Michael.E.Winiarski@hud.gov\">",
+            "nodeLabel": "Michael Winiarski",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-49-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,18,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1786,
+              "bottom": 1858,
+              "left": 346,
+              "right": 415,
+              "width": 69,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Ransford.Osafo-Danso@hud.gov\">",
+            "nodeLabel": "Ransford Osafo-Danso",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-50-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,19,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1883,
+              "bottom": 1929,
+              "left": 346,
+              "right": 413,
+              "width": 67,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Eileen.c.Coleman@HUD.gov\">",
+            "nodeLabel": "Eileen Coleman",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-52-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,22,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2071,
+              "bottom": 2117,
+              "left": 346,
+              "right": 401,
+              "width": 55,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Gayela.A.Bynum@hud.gov\">",
+            "nodeLabel": "Gayela Bynum",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-53-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,23,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2142,
+              "bottom": 2188,
+              "left": 346,
+              "right": 408,
+              "width": 62,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Marquis.C.Wade@HUD.gov\">",
+            "nodeLabel": "Marquis Wade",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-60-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,25,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2284,
+              "bottom": 2331,
+              "left": 346,
+              "right": 410,
+              "width": 63,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:MA_webmanager@hud.gov\">",
+            "nodeLabel": "Joanne Johnson",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-63-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,26,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2355,
+              "bottom": 2402,
+              "left": 346,
+              "right": 410,
+              "width": 63,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:NY_webmanager@hud.gov\">",
+            "nodeLabel": "Joanne Johnson",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-70-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,27,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2427,
+              "bottom": 2473,
+              "left": 346,
+              "right": 416,
+              "width": 70,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:MDwebmanager@hud.gov\">",
+            "nodeLabel": "Letha Strothers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-80-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,28,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2498,
+              "bottom": 2544,
+              "left": 346,
+              "right": 410,
+              "width": 63,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:GA_Webmanager@HUD.gov\">",
+            "nodeLabel": "Joanne Johnson",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-87-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,29,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2569,
+              "bottom": 2641,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-93-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,30,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2666,
+              "bottom": 2738,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-98-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,31,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2763,
+              "bottom": 2809,
+              "left": 346,
+              "right": 410,
+              "width": 63,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:KS_Webmanager@hud.gov\">",
+            "nodeLabel": "Joanne Johnson",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-105-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,32,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2834,
+              "bottom": 2880,
+              "left": 346,
+              "right": 416,
+              "width": 70,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:CO_Webmanager@hud.gov\">",
+            "nodeLabel": "Letha Strothers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-110-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,33,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2905,
+              "bottom": 2977,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-115-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,34,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3002,
+              "bottom": 3074,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-116-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,36,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3170,
+              "bottom": 3216,
+              "left": 346,
+              "right": 413,
+              "width": 67,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Eileen.C.Coleman@HUD.gov\">",
+            "nodeLabel": "Eileen Coleman",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-117-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,37,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3241,
+              "bottom": 3313,
+              "left": 346,
+              "right": 398,
+              "width": 52,
+              "height": 72
+            },
+            "snippet": "<a href=\"mailto:Helen.A.Savoye@hud.gov\">",
+            "nodeLabel": "Helen Savoye Minor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-118-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,38,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3338,
+              "bottom": 3384,
+              "left": 346,
+              "right": 416,
+              "width": 70,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:Letha.E.Strothers@hud.gov\">",
+            "nodeLabel": "Letha Strothers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-119-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,TABLE,0,TBODY,39,TR,1,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3409,
+              "bottom": 3455,
+              "left": 346,
+              "right": 410,
+              "width": 63,
+              "height": 47
+            },
+            "snippet": "<a href=\"mailto:WebManager@hud.gov\">",
+            "nodeLabel": "Joanne Johnson",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-217-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4083,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4083
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-10…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 29
+  }
+]

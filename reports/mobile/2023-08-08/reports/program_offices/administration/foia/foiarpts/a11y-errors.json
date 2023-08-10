@@ -1,0 +1,209 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-234-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-235-FONT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,0,TBODY,2,TR,2,TD,0,DIV,0,STRONG,0,FONT",
+            "selector": "td > div > strong > font",
+            "boundingRect": {
+              "top": 960,
+              "bottom": 981,
+              "left": 348,
+              "right": 387,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<font color=\"#990000\">",
+            "nodeLabel": "2019",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.33 (foreground color: #990000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-236-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4667,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4667
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-75…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-237-FONT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,0,TBODY,2,TR,3,TD,0,DIV,0,STRONG,0,FONT",
+            "selector": "td > div > strong > font",
+            "boundingRect": {
+              "top": 960,
+              "bottom": 981,
+              "left": 457,
+              "right": 495,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<font color=\"#990000\">",
+            "nodeLabel": "2018",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.33 (foreground color: #990000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-238-FONT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,0,TBODY,3,TR,2,TD,0,DIV,0,STRONG,0,FONT",
+            "selector": "td > div > strong > font",
+            "boundingRect": {
+              "top": 1475,
+              "bottom": 1496,
+              "left": 348,
+              "right": 387,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<font color=\"#990000\">",
+            "nodeLabel": "2015",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.33 (foreground color: #990000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-236-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 4667,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 4667
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-75…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-239-FONT",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,TABLE,0,TBODY,3,TR,3,TD,0,DIV,0,STRONG,0,FONT",
+            "selector": "td > div > strong > font",
+            "boundingRect": {
+              "top": 1475,
+              "bottom": 1496,
+              "left": 457,
+              "right": 495,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<font color=\"#990000\">",
+            "nodeLabel": "2014",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.33 (foreground color: #990000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

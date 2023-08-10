@@ -1,0 +1,272 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-149-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-150-P",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 284,
+              "bottom": 884,
+              "left": 391,
+              "right": 534,
+              "width": 143,
+              "height": 600
+            },
+            "snippet": "<p>",
+            "nodeLabel": "The Office of the Chief Financial Officer (OCFO) provides leadership in institu…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-151-P",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,0,P",
+            "selector": "td > div.row > div.col-sm-12 > p",
+            "boundingRect": {
+              "top": 894,
+              "bottom": 1734,
+              "left": 391,
+              "right": 534,
+              "width": 143,
+              "height": 840
+            },
+            "snippet": "<p>",
+            "nodeLabel": "The CFO reports directly to and advises the Secretary of the Department on all …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-152-P",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,1,P",
+            "selector": "td > div.row > div.col-sm-12 > p",
+            "boundingRect": {
+              "top": 1744,
+              "bottom": 2176,
+              "left": 391,
+              "right": 534,
+              "width": 143,
+              "height": 432
+            },
+            "snippet": "<p>",
+            "nodeLabel": "CFO staff functions include: accounting, budget, and financial management for H…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-29-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,1,P,1,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 1793,
+              "bottom": 1814,
+              "left": 391,
+              "right": 475,
+              "width": 84,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/cfo/accounting\">",
+            "nodeLabel": "accounting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-30-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,1,P,3,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 1817,
+              "bottom": 1838,
+              "left": 391,
+              "right": 443,
+              "width": 52,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/cfo/budget\">",
+            "nodeLabel": "budget",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-31-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,1,P,5,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 1841,
+              "bottom": 1886,
+              "left": 391,
+              "right": 491,
+              "width": 100,
+              "height": 45
+            },
+            "snippet": "<a href=\"/program_offices/cfo/finmgmt\">",
+            "nodeLabel": "financial management",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-32-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,1,TD,1,DIV,0,DIV,1,P,7,A",
+            "selector": "div.row > div.col-sm-12 > p > a",
+            "boundingRect": {
+              "top": 1961,
+              "bottom": 1982,
+              "left": 391,
+              "right": 522,
+              "width": 131,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/cfo/finsys\">",
+            "nodeLabel": "financial systems",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-153-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,DIV,0,DIV,1,DL",
+            "selector": "div#po-quicklinks-section > div.col-sm-12 > div.po-quicklinks-content > dl",
+            "boundingRect": {
+              "top": 3992,
+              "bottom": 4329,
+              "left": 101,
+              "right": 351,
+              "width": 250,
+              "height": 337
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Congress.gov Legislative Information\nHouse Appropriations Committee\nSenate Appr…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

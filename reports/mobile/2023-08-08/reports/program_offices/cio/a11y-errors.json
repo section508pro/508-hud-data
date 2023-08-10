@@ -1,0 +1,274 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-134-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-135-UL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL",
+            "selector": "div.field-items > div.field-item > div.row > ul.grid",
+            "boundingRect": {
+              "top": 2835,
+              "bottom": 4232,
+              "left": 86,
+              "right": 326,
+              "width": 240,
+              "height": 1397
+            },
+            "snippet": "<ul class=\"grid cs-style-5\">",
+            "nodeLabel": "\n\n\n\nAssistive Technology at HUD\n\n\n\n\nOCIO's Points of Contact\n\n\n\n\nSection 508 Co…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-136-DIV",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,0,DIV",
+                  "selector": "div.field-item > div.row > ul.grid > div.col-sm-6",
+                  "boundingRect": {
+                    "top": 2845,
+                    "bottom": 3166,
+                    "left": 96,
+                    "right": 316,
+                    "width": 220,
+                    "height": 322
+                  },
+                  "snippet": "<div class=\"col-sm-6 col-md-4 col-lg-4 col-xl-3\">",
+                  "nodeLabel": "\n\n\n\nAssistive Technology at HUD"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-137-DIV",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,1,DIV",
+                  "selector": "div.field-item > div.row > ul.grid > div.col-sm-6",
+                  "boundingRect": {
+                    "top": 3166,
+                    "bottom": 3488,
+                    "left": 96,
+                    "right": 316,
+                    "width": 220,
+                    "height": 322
+                  },
+                  "snippet": "<div class=\"col-sm-6 col-md-4 col-lg-4 col-xl-3\">",
+                  "nodeLabel": "\n\n\n\nOCIO's Points of Contact"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-138-DIV",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,2,DIV",
+                  "selector": "div.field-item > div.row > ul.grid > div.col-sm-6",
+                  "boundingRect": {
+                    "top": 3488,
+                    "bottom": 3810,
+                    "left": 96,
+                    "right": 316,
+                    "width": 220,
+                    "height": 322
+                  },
+                  "snippet": "<div class=\"col-sm-6 col-md-4 col-lg-4 col-xl-3\">",
+                  "nodeLabel": "\n\n\n\nSection 508 Compliance"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-139-LI",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,0,DIV,0,LI",
+            "selector": "div.row > ul.grid > div.col-sm-6 > li",
+            "boundingRect": {
+              "top": 2845,
+              "bottom": 3156,
+              "left": 111,
+              "right": 411,
+              "width": 300,
+              "height": 312
+            },
+            "snippet": "<li>",
+            "nodeLabel": "\n\n\n\nAssistive Technology at HUD",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-140-LI",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.row > ul.grid > div.col-sm-6 > li",
+            "boundingRect": {
+              "top": 3166,
+              "bottom": 3478,
+              "left": 111,
+              "right": 411,
+              "width": 300,
+              "height": 312
+            },
+            "snippet": "<li>",
+            "nodeLabel": "\n\n\n\nOCIO's Points of Contact",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-141-LI",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,2,DIV,0,LI",
+            "selector": "div.row > ul.grid > div.col-sm-6 > li",
+            "boundingRect": {
+              "top": 3488,
+              "bottom": 3800,
+              "left": 111,
+              "right": 411,
+              "width": 300,
+              "height": 312
+            },
+            "snippet": "<li>",
+            "nodeLabel": "\n\n\n\nSection 508 Compliance",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-142-LI",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,12,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.row > ul.grid > div.col-sm-6 > li",
+            "boundingRect": {
+              "top": 3810,
+              "bottom": 4122,
+              "left": 111,
+              "right": 411,
+              "width": 300,
+              "height": 312
+            },
+            "snippet": "<li>",
+            "nodeLabel": "\n\n\n\nOCIO Organizational Chart",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-131-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-132-IMG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,FORM,8,TABLE,0,TBODY,0,TR,0,TD,1,IMG",
+            "selector": "tbody > tr > td > img",
+            "boundingRect": {
+              "top": 931,
+              "bottom": 932,
+              "left": 132,
+              "right": 142,
+              "width": 10,
+              "height": 1
+            },
+            "snippet": "<img alt=\" \" border=\"0\" height=\"1\" src=\"https://apps.hud.gov/images/space.gif\" width=\"10\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element has an alt attribute containing only a space character, which is not ignored by all screen readers"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-127-INPUT",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,FORM,6,TABLE,0,TBODY,0,TR,1,TD,0,INPUT",
+            "selector": "tbody > tr > td > input",
+            "boundingRect": {
+              "top": 761,
+              "bottom": 793,
+              "left": 240,
+              "right": 525,
+              "width": 286,
+              "height": 32
+            },
+            "snippet": "<input maxlength=\"60\" name=\"email\" size=\"30\">",
+            "nodeLabel": "tbody > tr > td > input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

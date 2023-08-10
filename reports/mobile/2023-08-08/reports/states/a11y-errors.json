@@ -1,0 +1,163 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-174-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-175-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,1,DIV,0,DL",
+            "selector": "div.col-xs-12 > div.row > div.col-sm-3 > dl",
+            "boundingRect": {
+              "top": 220,
+              "bottom": 631,
+              "left": 61,
+              "right": 292,
+              "width": 231,
+              "height": 412
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Alabama\nAlaska\nArizona\nArkansas\nCalifornia\nColorado\nConnecticut\nDelaware\nDistri…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-176-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,2,DIV,0,DL",
+            "selector": "div.col-xs-12 > div.row > div.col-sm-3 > dl",
+            "boundingRect": {
+              "top": 631,
+              "bottom": 1043,
+              "left": 61,
+              "right": 292,
+              "width": 231,
+              "height": 412
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Illinois\nIndiana\nIowa\nKansas\nKentucky\nLouisiana\nMaine\nMaryland\nMassachusetts\nMi…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-177-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,3,DIV,0,DL",
+            "selector": "div.col-xs-12 > div.row > div.col-sm-3 > dl",
+            "boundingRect": {
+              "top": 1043,
+              "bottom": 1455,
+              "left": 61,
+              "right": 292,
+              "width": 231,
+              "height": 412
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Montana\nNebraska\nNevada\nNew Hampshire\nNew Jersey\nNew Mexico\nNew York\nNorth Caro…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-178-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,DIV,0,DIV,4,DIV,0,DL",
+            "selector": "div.col-xs-12 > div.row > div.col-sm-3 > dl",
+            "boundingRect": {
+              "top": 1455,
+              "bottom": 1866,
+              "left": 61,
+              "right": 292,
+              "width": 231,
+              "height": 412
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Puerto Rico / Virgin Islands\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

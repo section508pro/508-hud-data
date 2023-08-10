@@ -1,0 +1,393 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-154-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-27-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,P,0,A",
+            "selector": "div.row > div.col-md-6 > p.headerfive2 > a.bluelink",
+            "boundingRect": {
+              "top": 898,
+              "bottom": 936,
+              "left": 106,
+              "right": 306,
+              "width": 201,
+              "height": 39
+            },
+            "snippet": "<a class=\"bluelink\" href=\"https://public.govdelivery.com/accounts/USHUDPIH/signup/28268\">",
+            "nodeLabel": "Sign up for the HCV Connect Newsletter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #0b76b7, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-155-DIV",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV",
+                  "selector": "div.field-items > div.field-item > div.row > div.col-md-6",
+                  "boundingRect": {
+                    "top": 879,
+                    "bottom": 939,
+                    "left": 46,
+                    "right": 366,
+                    "width": 320,
+                    "height": 60
+                  },
+                  "snippet": "<div class=\"col-md-6 nowhiteline\" style=\"background-color: rgb(240, 240, 240); height: 60px;\">",
+                  "nodeLabel": "Sign up for the HCV Connect Newsletter"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-28-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV,0,P,0,A",
+            "selector": "div.col-md-6 > div.div-1 > p.headerfive2 > a.bluelink",
+            "boundingRect": {
+              "top": 958,
+              "bottom": 996,
+              "left": 96,
+              "right": 332,
+              "width": 236,
+              "height": 39
+            },
+            "snippet": "<a class=\"bluelink\" href=\"/program_offices/public_indian_housing/programs/hcv/about\">",
+            "nodeLabel": "Learn about the Office of Housing Choice Voucher Programs",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.29 (foreground color: #0b76b7, background color: #f0f0f0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-156-DIV",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,5,DIV,1,DIV,0,DIV",
+                  "selector": "div.field-item > div.row > div.col-md-6 > div.div-1",
+                  "boundingRect": {
+                    "top": 939,
+                    "bottom": 999,
+                    "left": 62,
+                    "right": 366,
+                    "width": 304,
+                    "height": 60
+                  },
+                  "snippet": "<div class=\"div-1\">",
+                  "nodeLabel": "Learn about the Office of Housing Choice Voucher Programs"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-157-DL",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,FIELDSET,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DL",
+            "selector": "div.col-xs-12 > div.row > div.col-xs-12 > dl",
+            "boundingRect": {
+              "top": 5029,
+              "bottom": 5848,
+              "left": 61,
+              "right": 351,
+              "width": 290,
+              "height": 819
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "PIH Notice 2023-09 - 2023 Mid Year Registration of Interest for HUD-VASH Vouche…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-29-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,7,DIV,2,DIV,0,DIV,0,A",
+            "selector": "div.row > div.col-md-6 > div.imgboxbutton > a",
+            "boundingRect": {
+              "top": 1067,
+              "bottom": 1067,
+              "left": 101,
+              "right": 101,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/program_offices/public_indian_housing/programs/hcv/safmr\">",
+            "nodeLabel": "key in door",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-31-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,7,DIV,3,DIV,0,DIV,0,A",
+            "selector": "div.row > div.col-md-6 > div.imgboxbutton > a",
+            "boundingRect": {
+              "top": 1587,
+              "bottom": 1587,
+              "left": 101,
+              "right": 101,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/program_offices/public_indian_housing/programs/hcv/vash\">",
+            "nodeLabel": "eVMS Logo",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-33-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,7,DIV,4,DIV,0,DIV,0,A",
+            "selector": "div.row > div.col-md-6 > div.imgboxbutton > a",
+            "boundingRect": {
+              "top": 2107,
+              "bottom": 2107,
+              "left": 101,
+              "right": 101,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a href=\"/program_offices/public_indian_housing/programs/hcv/funding\">",
+            "nodeLabel": "HCV Funding Opportunities",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-48-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,FIELDSET,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DL,0,DD,1,A",
+            "selector": "div.col-xs-12 > dl > dd.add-padding-bottom > a",
+            "boundingRect": {
+              "top": 5029,
+              "bottom": 5050,
+              "left": 209,
+              "right": 213,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/sites/dfiles/PIH/documents/PIH_2023_09.pdf\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-50-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,FIELDSET,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DL,1,DD,1,A",
+            "selector": "div.col-xs-12 > dl > dd.add-padding-bottom > a",
+            "boundingRect": {
+              "top": 5103,
+              "bottom": 5124,
+              "left": 209,
+              "right": 213,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/sites/dfiles/PIH/documents/PIH2023-07.pdf\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-52-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,FIELDSET,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DL,2,DD,1,A",
+            "selector": "div.col-xs-12 > dl > dd.add-padding-bottom > a",
+            "boundingRect": {
+              "top": 5199,
+              "bottom": 5220,
+              "left": 209,
+              "right": 213,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/sites/dfiles/PIH/documents/PIH2023-07.pdf\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-54-A",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,FIELDSET,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DL,3,DD,1,A",
+            "selector": "div.col-xs-12 > dl > dd.add-padding-bottom > a",
+            "boundingRect": {
+              "top": 5319,
+              "bottom": 5340,
+              "left": 209,
+              "right": 213,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/sites/dfiles/PIH/documents/PIH2023-07.pdf\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 7
+  }
+]

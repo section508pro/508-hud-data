@@ -1,0 +1,432 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-451-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-452-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,H4,0,STRONG,1,SPAN",
+            "selector": "div.field-item > h4 > strong > span",
+            "boundingRect": {
+              "top": 457,
+              "bottom": 498,
+              "left": 61,
+              "right": 301,
+              "width": 240,
+              "height": 40
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-454-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,UL,1,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 696,
+              "bottom": 743,
+              "left": 101,
+              "right": 302,
+              "width": 201,
+              "height": 47
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-455-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,UL,2,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 783,
+              "bottom": 804,
+              "left": 157,
+              "right": 312,
+              "width": 156,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-456-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,UL,3,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 844,
+              "bottom": 865,
+              "left": 149,
+              "right": 305,
+              "width": 156,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-457-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,UL,4,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 905,
+              "bottom": 926,
+              "left": 149,
+              "right": 305,
+              "width": 156,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-458-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,UL,5,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 992,
+              "bottom": 1013,
+              "left": 149,
+              "right": 305,
+              "width": 156,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-459-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,UL,0,LI,0,STRONG,1,SPAN",
+            "selector": "ul > li > strong > span",
+            "boundingRect": {
+              "top": 1087,
+              "bottom": 1108,
+              "left": 152,
+              "right": 308,
+              "width": 156,
+              "height": 21
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "(No longer in effect)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-453-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 168,
+                    "bottom": 5206,
+                    "left": 61,
+                    "right": 351,
+                    "width": 290,
+                    "height": 5038
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Public and Indian Housing / Indian Housing's Office of…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-460-H4",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,H4",
+            "selector": "div.field > div.field-items > div.field-item > h4",
+            "boundingRect": {
+              "top": 460,
+              "bottom": 495,
+              "left": 61,
+              "right": 351,
+              "width": 290,
+              "height": 35
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "CDC Eviction Moratorium (No longer in effect)",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

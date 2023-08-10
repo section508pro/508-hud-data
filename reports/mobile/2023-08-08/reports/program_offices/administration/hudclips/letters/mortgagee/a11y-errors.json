@@ -1,0 +1,334 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-200-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-83-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 636,
+              "bottom": 657,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1989ml\">",
+            "nodeLabel": "1989",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-84-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,2,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 662,
+              "bottom": 683,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1988ml\">",
+            "nodeLabel": "1988",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-85-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,4,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 708,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1987ml\">",
+            "nodeLabel": "1987",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-86-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,6,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 713,
+              "bottom": 734,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1986ml\">",
+            "nodeLabel": "1986",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-87-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,8,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 739,
+              "bottom": 760,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1985ml\">",
+            "nodeLabel": "1985",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-88-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,10,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 764,
+              "bottom": 785,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1984ml\">",
+            "nodeLabel": "1984",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-89-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,12,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 790,
+              "bottom": 811,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1983ml\">",
+            "nodeLabel": "1983",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-90-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,14,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 815,
+              "bottom": 836,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1982ml\">",
+            "nodeLabel": "1982",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-91-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,16,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 841,
+              "bottom": 862,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1981ml\">",
+            "nodeLabel": "1981",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-92-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,5,TD,18,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 867,
+              "bottom": 888,
+              "left": 400,
+              "right": 439,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1980ml\">",
+            "nodeLabel": "1980",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-93-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,6,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 636,
+              "bottom": 657,
+              "left": 460,
+              "right": 498,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1979-1976ml#1979\">",
+            "nodeLabel": "1979",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-94-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,6,TD,2,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 662,
+              "bottom": 683,
+              "left": 460,
+              "right": 498,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1979-1976ml#1978\">",
+            "nodeLabel": "1978",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-95-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,4,TABLE,0,TBODY,0,TR,6,TD,4,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 687,
+              "bottom": 708,
+              "left": 460,
+              "right": 498,
+              "width": 38,
+              "height": 21
+            },
+            "snippet": "<a href=\"/program_offices/administration/hudclips/letters/mortgagee/1979-1976ml#1976\">",
+            "nodeLabel": "1976",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 13
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-435-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 52,
+              "bottom": 166,
+              "left": 917,
+              "right": 1117,
+              "width": 200,
+              "height": 114
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-340-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,11,DIV,8,DIV,6,DIV,0,CENTER,7,A",
+            "selector": "div#about > div.col-md-12 > center > a#bluelnk",
+            "boundingRect": {
+              "top": 5432,
+              "bottom": 5452,
+              "left": 507,
+              "right": 542,
+              "width": 35,
+              "height": 20
+            },
+            "snippet": "<a href=\"/faqs\" id=\"bluelnk\">",
+            "nodeLabel": "FAQ",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: bluelnk"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-341-A",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,11,DIV,8,DIV,6,DIV,0,CENTER,9,A",
+                  "selector": "div#about > div.col-md-12 > center > a#bluelnk",
+                  "boundingRect": {
+                    "top": 5432,
+                    "bottom": 5452,
+                    "left": 555,
+                    "right": 677,
+                    "width": 122,
+                    "height": 20
+                  },
+                  "snippet": "<a href=\"/program_offices/housing/hsgrroom\" id=\"bluelnk\">",
+                  "nodeLabel": "Reading Room"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-342-A",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,11,DIV,8,DIV,6,DIV,0,CENTER,11,A",
+                  "selector": "div#about > div.col-md-12 > center > a#bluelnk",
+                  "boundingRect": {
+                    "top": 5432,
+                    "bottom": 5452,
+                    "left": 690,
+                    "right": 758,
+                    "width": 68,
+                    "height": 20
+                  },
+                  "snippet": "<a href=\"https://www.usajobs.gov\" id=\"bluelnk\">",
+                  "nodeLabel": "Careers"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-343-A",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,11,DIV,8,DIV,6,DIV,0,CENTER,13,A",
+                  "selector": "div#about > div.col-md-12 > center > a#bluelnk",
+                  "boundingRect": {
+                    "top": 5432,
+                    "bottom": 5452,
+                    "left": 771,
+                    "right": 844,
+                    "width": 73,
+                    "height": 20
+                  },
+                  "snippet": "<a href=\"https://fha.gov\" id=\"bluelnk\">",
+                  "nodeLabel": "FHA.gov"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

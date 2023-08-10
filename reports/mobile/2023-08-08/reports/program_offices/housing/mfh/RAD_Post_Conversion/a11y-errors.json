@@ -1,0 +1,262 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-396-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-287-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,P,0,STRONG,0,A",
+            "selector": "div.field-item > p > strong > a",
+            "boundingRect": {
+              "top": 3146,
+              "bottom": 3167,
+              "left": 61,
+              "right": 326,
+              "width": 265,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/RAD_to…\">",
+            "nodeLabel": "div.field-item > p > strong > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-288-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,P,0,STRONG,1,A",
+            "selector": "div.field-item > p > strong > a",
+            "boundingRect": {
+              "top": 3281,
+              "bottom": 3302,
+              "left": 61,
+              "right": 319,
+              "width": 258,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/Choosin…\">",
+            "nodeLabel": "div.field-item > p > strong > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-289-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,P,0,STRONG,2,A",
+            "selector": "div.field-item > p > strong > a",
+            "boundingRect": {
+              "top": 3395,
+              "bottom": 3416,
+              "left": 72,
+              "right": 335,
+              "width": 263,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/SAMs_Re…\">",
+            "nodeLabel": "div.field-item > p > strong > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-290-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,11,P,0,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 3578,
+              "bottom": 3599,
+              "left": 61,
+              "right": 333,
+              "width": 272,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion//Guide_…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-291-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,11,P,1,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 3715,
+              "bottom": 3736,
+              "left": 61,
+              "right": 329,
+              "width": 268,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/TRACS_V…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-292-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,11,P,2,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 3828,
+              "bottom": 3849,
+              "left": 83,
+              "right": 346,
+              "width": 263,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/Annual…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-293-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,13,P,0,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 4010,
+              "bottom": 4031,
+              "left": 61,
+              "right": 331,
+              "width": 270,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/Multifa…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-294-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,13,P,1,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 4123,
+              "bottom": 4144,
+              "left": 83,
+              "right": 350,
+              "width": 267,
+              "height": 21
+            },
+            "snippet": "<a href=\"http://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/Managem…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-295-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,13,P,2,A",
+            "selector": "div.field-items > div.field-item > p > a",
+            "boundingRect": {
+              "top": 4260,
+              "bottom": 4281,
+              "left": 61,
+              "right": 326,
+              "width": 265,
+              "height": 21
+            },
+            "snippet": "<a href=\"https://www.hud.gov/program_offices/housing/mfh/RAD_Post_Conversion/Choice…\">",
+            "nodeLabel": "div.field-items > div.field-item > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 9
+  }
+]

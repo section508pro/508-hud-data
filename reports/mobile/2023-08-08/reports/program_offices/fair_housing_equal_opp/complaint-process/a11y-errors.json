@@ -1,0 +1,297 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-280-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-281-STRONG",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD,1,P,0,STRONG",
+            "selector": "tr > td > p > strong",
+            "boundingRect": {
+              "top": 3093,
+              "bottom": 3114,
+              "left": 72,
+              "right": 499,
+              "width": 427,
+              "height": 21
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Where appropriate, we take actions to enforce the law.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.6 (foreground color: #000000, background color: #404f77, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-282-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3028,
+                    "bottom": 3328,
+                    "left": 62,
+                    "right": 1083,
+                    "width": 1021,
+                    "height": 300
+                  },
+                  "snippet": "<td bgcolor=\"#404f77\" style=\"width: 750.19px; color: rgb(255, 255, 255);\">",
+                  "nodeLabel": "Legal Action\n\nWhere appropriate, we take actions to enforce the law.\n\nWhat to E…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-283-EM",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD,2,P,0,EM",
+            "selector": "tr > td > p > em",
+            "boundingRect": {
+              "top": 3127,
+              "bottom": 3148,
+              "left": 72,
+              "right": 190,
+              "width": 118,
+              "height": 21
+            },
+            "snippet": "<em>",
+            "nodeLabel": "What to Expect:",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.6 (foreground color: #000000, background color: #404f77, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-282-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3028,
+                    "bottom": 3328,
+                    "left": 62,
+                    "right": 1083,
+                    "width": 1021,
+                    "height": 300
+                  },
+                  "snippet": "<td bgcolor=\"#404f77\" style=\"width: 750.19px; color: rgb(255, 255, 255);\">",
+                  "nodeLabel": "Legal Action\n\nWhere appropriate, we take actions to enforce the law.\n\nWhat to E…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-284-LI",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD,3,UL,0,LI",
+            "selector": "tr > td > ul > li",
+            "boundingRect": {
+              "top": 3160,
+              "bottom": 3211,
+              "left": 112,
+              "right": 1072,
+              "width": 960,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The government may bring a Fair Housing Act or other civil rights case based on…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.6 (foreground color: #000000, background color: #404f77, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-282-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3028,
+                    "bottom": 3328,
+                    "left": 62,
+                    "right": 1083,
+                    "width": 1021,
+                    "height": 300
+                  },
+                  "snippet": "<td bgcolor=\"#404f77\" style=\"width: 750.19px; color: rgb(255, 255, 255);\">",
+                  "nodeLabel": "Legal Action\n\nWhere appropriate, we take actions to enforce the law.\n\nWhat to E…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-285-LI",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD,4,UL,0,LI",
+            "selector": "tr > td > ul > li",
+            "boundingRect": {
+              "top": 3221,
+              "bottom": 3247,
+              "left": 112,
+              "right": 1072,
+              "width": 960,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": "When the government brings a legal action, it does not charge any fees or costs…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.6 (foreground color: #000000, background color: #404f77, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-282-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3028,
+                    "bottom": 3328,
+                    "left": 62,
+                    "right": 1083,
+                    "width": 1021,
+                    "height": 300
+                  },
+                  "snippet": "<td bgcolor=\"#404f77\" style=\"width: 750.19px; color: rgb(255, 255, 255);\">",
+                  "nodeLabel": "Legal Action\n\nWhere appropriate, we take actions to enforce the law.\n\nWhat to E…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-286-LI",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD,5,UL,0,LI",
+            "selector": "tr > td > ul > li",
+            "boundingRect": {
+              "top": 3257,
+              "bottom": 3308,
+              "left": 112,
+              "right": 1072,
+              "width": 960,
+              "height": 51
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Cases before HUD Administrative Law Judges are handled by HUD's Office of Gener…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.6 (foreground color: #000000, background color: #404f77, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-282-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,9,DIV,0,TABLE,0,TBODY,3,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 3028,
+                    "bottom": 3328,
+                    "left": 62,
+                    "right": 1083,
+                    "width": 1021,
+                    "height": 300
+                  },
+                  "snippet": "<td bgcolor=\"#404f77\" style=\"width: 750.19px; color: rgb(255, 255, 255);\">",
+                  "nodeLabel": "Legal Action\n\nWhere appropriate, we take actions to enforce the law.\n\nWhat to E…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
