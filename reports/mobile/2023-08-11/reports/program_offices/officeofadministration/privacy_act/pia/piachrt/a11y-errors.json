@@ -1,0 +1,3184 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-324-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-325-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,0,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 1912,
+              "bottom": 1957,
+              "left": 402,
+              "right": 486,
+              "width": 84,
+              "height": 46
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY Approved",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-326-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,2,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2031,
+              "bottom": 2051,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-327-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,3,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2077,
+              "bottom": 2097,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-328-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,4,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2124,
+              "bottom": 2144,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-329-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,5,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2170,
+              "bottom": 2190,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-330-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,6,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2230,
+              "bottom": 2250,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-331-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,7,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2315,
+              "bottom": 2335,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-332-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,8,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2400,
+              "bottom": 2420,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-333-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,9,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2472,
+              "bottom": 2492,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-334-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,10,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2557,
+              "bottom": 2577,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-335-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,11,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2642,
+              "bottom": 2662,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-336-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,12,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2727,
+              "bottom": 2747,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-337-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,13,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 2799,
+              "bottom": 2819,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-338-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,15,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 2931,
+              "bottom": 2951,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-339-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,16,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3003,
+              "bottom": 3023,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-340-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,17,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3088,
+              "bottom": 3108,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-341-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,18,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3198,
+              "bottom": 3218,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-342-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,19,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3335,
+              "bottom": 3355,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-343-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,20,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3484,
+              "bottom": 3504,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-344-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,21,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3620,
+              "bottom": 3640,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-345-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,22,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3756,
+              "bottom": 3776,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-346-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,23,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 3918,
+              "bottom": 3938,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-347-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,24,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4092,
+              "bottom": 4112,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-348-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,25,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4228,
+              "bottom": 4248,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-349-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,26,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4326,
+              "bottom": 4346,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-350-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,27,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4424,
+              "bottom": 4444,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-351-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,28,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4522,
+              "bottom": 4542,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-352-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,29,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4594,
+              "bottom": 4614,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-353-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,30,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4653,
+              "bottom": 4673,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-354-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,31,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4738,
+              "bottom": 4758,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-355-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,32,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4823,
+              "bottom": 4843,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-356-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,33,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 4908,
+              "bottom": 4928,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-357-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,34,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5019,
+              "bottom": 5039,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-358-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,35,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5129,
+              "bottom": 5149,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-359-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,36,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5240,
+              "bottom": 5260,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-360-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,37,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5338,
+              "bottom": 5358,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-361-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,38,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5410,
+              "bottom": 5430,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-362-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,39,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5482,
+              "bottom": 5502,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-363-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,40,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5580,
+              "bottom": 5600,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-364-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,41,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5690,
+              "bottom": 5710,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-365-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,42,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5801,
+              "bottom": 5821,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-366-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,43,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5899,
+              "bottom": 5919,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-367-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,44,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 5971,
+              "bottom": 5991,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-368-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,45,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 6056,
+              "bottom": 6076,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-369-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,46,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 6141,
+              "bottom": 6161,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-370-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,47,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6226,
+              "bottom": 6246,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-371-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,48,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6311,
+              "bottom": 6331,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-372-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,49,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6383,
+              "bottom": 6403,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-373-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,50,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6468,
+              "bottom": 6488,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-374-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,51,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6540,
+              "bottom": 6560,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-375-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,52,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6600,
+              "bottom": 6620,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-376-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,53,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6672,
+              "bottom": 6692,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-377-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,54,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6757,
+              "bottom": 6777,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-378-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,55,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6842,
+              "bottom": 6862,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-379-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,56,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 6927,
+              "bottom": 6947,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-380-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,58,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 7025,
+              "bottom": 7045,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-381-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,60,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7182,
+              "bottom": 7202,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-382-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,61,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7292,
+              "bottom": 7312,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-383-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,62,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7403,
+              "bottom": 7423,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-384-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,63,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7539,
+              "bottom": 7559,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-385-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,64,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7663,
+              "bottom": 7683,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-386-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,65,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7760,
+              "bottom": 7780,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-387-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,66,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7858,
+              "bottom": 7878,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-388-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,67,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 7943,
+              "bottom": 7963,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-389-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,68,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 8028,
+              "bottom": 8048,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-390-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,69,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8126,
+              "bottom": 8146,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-391-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,70,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8224,
+              "bottom": 8244,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-392-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,71,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8309,
+              "bottom": 8329,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-393-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,72,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8394,
+              "bottom": 8414,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-394-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,74,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8491,
+              "bottom": 8511,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-395-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,75,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8576,
+              "bottom": 8596,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-396-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,76,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8649,
+              "bottom": 8669,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-397-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,78,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 8734,
+              "bottom": 8754,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-398-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,79,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 8831,
+              "bottom": 8851,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-399-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,80,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 8942,
+              "bottom": 8962,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-400-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,81,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 9065,
+              "bottom": 9085,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-401-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,82,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9176,
+              "bottom": 9196,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-402-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,83,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9274,
+              "bottom": 9294,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-403-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,84,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9359,
+              "bottom": 9379,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-404-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,85,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9431,
+              "bottom": 9451,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-405-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,86,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9490,
+              "bottom": 9510,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-406-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,87,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9550,
+              "bottom": 9570,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-407-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,88,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9622,
+              "bottom": 9642,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-408-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,89,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9694,
+              "bottom": 9714,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-409-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,91,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9779,
+              "bottom": 9799,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-410-B",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,92,TR,2,TD,0,DIV,0,B",
+            "selector": "tr > td > div > b",
+            "boundingRect": {
+              "top": 9877,
+              "bottom": 9897,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<b>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-411-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,93,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 9974,
+              "bottom": 9994,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-412-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,94,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10072,
+              "bottom": 10092,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-413-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,95,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10170,
+              "bottom": 10190,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-414-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,96,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10268,
+              "bottom": 10288,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-415-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,97,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10353,
+              "bottom": 10373,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-416-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,98,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10425,
+              "bottom": 10445,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-417-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,99,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10510,
+              "bottom": 10530,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-418-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,100,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10608,
+              "bottom": 10628,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-419-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,101,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10693,
+              "bottom": 10713,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-420-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,102,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10778,
+              "bottom": 10798,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-421-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,103,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 10863,
+              "bottom": 10883,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-422-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,104,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 10973,
+              "bottom": 10993,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-423-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,105,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 11097,
+              "bottom": 11117,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-424-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,106,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11207,
+              "bottom": 11227,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-425-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,107,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11331,
+              "bottom": 11351,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-426-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,108,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11454,
+              "bottom": 11474,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-427-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,109,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11552,
+              "bottom": 11572,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-428-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,111,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11709,
+              "bottom": 11729,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-429-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,112,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11781,
+              "bottom": 11801,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-430-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,114,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 11951,
+              "bottom": 11971,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-431-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,116,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12121,
+              "bottom": 12141,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-432-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,117,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12168,
+              "bottom": 12188,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-433-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,118,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12240,
+              "bottom": 12260,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-434-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,119,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12325,
+              "bottom": 12345,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-435-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,120,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12397,
+              "bottom": 12417,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-436-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,121,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12469,
+              "bottom": 12489,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-437-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,122,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12529,
+              "bottom": 12549,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-438-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,123,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12601,
+              "bottom": 12621,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-439-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,124,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12699,
+              "bottom": 12719,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-440-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,125,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 12771,
+              "bottom": 12791,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-441-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,126,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 12843,
+              "bottom": 12863,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-442-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,127,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 12966,
+              "bottom": 12986,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-443-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,128,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13077,
+              "bottom": 13097,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-444-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,130,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 13183,
+              "bottom": 13203,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-445-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,131,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 13255,
+              "bottom": 13275,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-446-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,134,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13408,
+              "bottom": 13428,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-447-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,135,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 13480,
+              "bottom": 13500,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-448-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,137,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 13586,
+              "bottom": 13606,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-449-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,139,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13679,
+              "bottom": 13699,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-450-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,140,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13802,
+              "bottom": 13822,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-451-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,141,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13900,
+              "bottom": 13920,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-452-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,142,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 13972,
+              "bottom": 13992,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-453-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,143,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 14045,
+              "bottom": 14065,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-454-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,144,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 14142,
+              "bottom": 14162,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-455-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,145,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 14215,
+              "bottom": 14235,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-456-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,146,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14287,
+              "bottom": 14307,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-457-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,147,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14384,
+              "bottom": 14404,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-458-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,148,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14508,
+              "bottom": 14528,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-459-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,150,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14678,
+              "bottom": 14698,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-460-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,152,TR,2,TD,0,STRONG",
+            "selector": "tbody > tr > td.rtecenter > strong",
+            "boundingRect": {
+              "top": 14771,
+              "bottom": 14791,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-461-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,153,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14818,
+              "bottom": 14838,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY23",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-462-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,155,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 14962,
+              "bottom": 14982,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-463-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,156,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15034,
+              "bottom": 15054,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-464-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,158,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15132,
+              "bottom": 15152,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-465-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,159,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15230,
+              "bottom": 15250,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-466-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,162,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15400,
+              "bottom": 15420,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-467-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,163,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15446,
+              "bottom": 15466,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-468-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,164,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15506,
+              "bottom": 15526,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-469-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,165,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15578,
+              "bottom": 15598,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-470-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,166,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15663,
+              "bottom": 15683,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-471-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,167,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15761,
+              "bottom": 15781,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-472-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,168,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15846,
+              "bottom": 15866,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-473-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,169,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15918,
+              "bottom": 15938,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-474-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,170,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 15990,
+              "bottom": 16010,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-475-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,171,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16049,
+              "bottom": 16069,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-476-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,172,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16096,
+              "bottom": 16116,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-477-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,173,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16143,
+              "bottom": 16163,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-478-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,174,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16189,
+              "bottom": 16209,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-479-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,175,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16249,
+              "bottom": 16269,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-480-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,176,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16308,
+              "bottom": 16328,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-481-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,177,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16355,
+              "bottom": 16375,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-482-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,178,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16401,
+              "bottom": 16421,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-483-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,179,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16473,
+              "bottom": 16493,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-484-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,180,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16546,
+              "bottom": 16566,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-485-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,181,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16605,
+              "bottom": 16625,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY20",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-486-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,182,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16664,
+              "bottom": 16684,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY21",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-487-STRONG",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,DIV,2,TABLE,0,TBODY,184,TR,2,TD,0,DIV,0,STRONG",
+            "selector": "tr > td > div > strong",
+            "boundingRect": {
+              "top": 16757,
+              "bottom": 16777,
+              "left": 423,
+              "right": 466,
+              "width": 43,
+              "height": 20
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "FY22",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 163
+  }
+]
