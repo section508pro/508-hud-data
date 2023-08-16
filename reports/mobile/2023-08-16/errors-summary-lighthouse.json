@@ -1,0 +1,15 @@
+{
+  "color-contrast": 260,
+  "aria-allowed-attr": 66,
+  "link-name": 26,
+  "label": 11,
+  "definition-list": 8,
+  "heading-order": 3,
+  "aria-input-field-name": 3,
+  "aria-required-children": 3,
+  "frame-title": 2,
+  "tabindex": 2,
+  "duplicate-id-active": 1,
+  "image-alt": 1,
+  "duplicate-id-aria": 1
+}
