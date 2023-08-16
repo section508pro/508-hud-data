@@ -1,0 +1,4077 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-443-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-162-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,0,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 808,
+              "bottom": 828,
+              "left": 581,
+              "right": 654,
+              "width": 73,
+              "height": 20
+            },
+            "snippet": "<a href=\"#NE\">",
+            "nodeLabel": "Nebraska",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-163-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,0,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 808,
+              "bottom": 828,
+              "left": 857,
+              "right": 902,
+              "width": 45,
+              "height": 20
+            },
+            "snippet": "<a href=\"#TX\">",
+            "nodeLabel": "Texas",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-166-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,1,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 855,
+              "bottom": 875,
+              "left": 581,
+              "right": 668,
+              "width": 87,
+              "height": 20
+            },
+            "snippet": "<a href=\"#NJ\">",
+            "nodeLabel": "New Jersey",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-167-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,1,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 855,
+              "bottom": 875,
+              "left": 857,
+              "right": 894,
+              "width": 37,
+              "height": 20
+            },
+            "snippet": "<a href=\"#UT\">",
+            "nodeLabel": "Utah",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-170-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,2,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 901,
+              "bottom": 921,
+              "left": 581,
+              "right": 653,
+              "width": 72,
+              "height": 20
+            },
+            "snippet": "<a href=\"#NY\">",
+            "nodeLabel": "New York",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-171-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,2,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 901,
+              "bottom": 921,
+              "left": 857,
+              "right": 923,
+              "width": 66,
+              "height": 20
+            },
+            "snippet": "<a href=\"#VT\">",
+            "nodeLabel": "Vermont",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-174-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,3,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 948,
+              "bottom": 968,
+              "left": 581,
+              "right": 693,
+              "width": 112,
+              "height": 20
+            },
+            "snippet": "<a href=\"#NC\">",
+            "nodeLabel": "North Carolina",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-175-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,3,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 948,
+              "bottom": 968,
+              "left": 857,
+              "right": 918,
+              "width": 61,
+              "height": 20
+            },
+            "snippet": "<a href=\"#VA\">",
+            "nodeLabel": "Virginia",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-178-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 995,
+              "bottom": 1015,
+              "left": 581,
+              "right": 682,
+              "width": 101,
+              "height": 20
+            },
+            "snippet": "<a href=\"#ND\">",
+            "nodeLabel": "North Dakota",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-179-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 995,
+              "bottom": 1015,
+              "left": 857,
+              "right": 947,
+              "width": 90,
+              "height": 20
+            },
+            "snippet": "<a href=\"#WA\">",
+            "nodeLabel": "Washington",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-182-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,5,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1041,
+              "bottom": 1061,
+              "left": 581,
+              "right": 616,
+              "width": 35,
+              "height": 20
+            },
+            "snippet": "<a href=\"#OH\">",
+            "nodeLabel": "Ohio",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-183-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,5,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1041,
+              "bottom": 1061,
+              "left": 857,
+              "right": 959,
+              "width": 102,
+              "height": 20
+            },
+            "snippet": "<a href=\"#WV\">",
+            "nodeLabel": "West Virginia",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-186-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,6,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1088,
+              "bottom": 1108,
+              "left": 581,
+              "right": 641,
+              "width": 60,
+              "height": 20
+            },
+            "snippet": "<a href=\"#GA\">",
+            "nodeLabel": "Georgia",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-189-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,7,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1134,
+              "bottom": 1154,
+              "left": 581,
+              "right": 684,
+              "width": 103,
+              "height": 20
+            },
+            "snippet": "<a href=\"#PA\">",
+            "nodeLabel": "Pennsylvania",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-192-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,8,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1181,
+              "bottom": 1201,
+              "left": 581,
+              "right": 681,
+              "width": 100,
+              "height": 20
+            },
+            "snippet": "<a href=\"#RI\">",
+            "nodeLabel": "Rhode Island",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-195-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,9,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1228,
+              "bottom": 1248,
+              "left": 581,
+              "right": 693,
+              "width": 112,
+              "height": 20
+            },
+            "snippet": "<a href=\"#SC\">",
+            "nodeLabel": "South Carolina",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-197-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,5,TABLE,0,TBODY,10,TR,2,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1274,
+              "bottom": 1294,
+              "left": 581,
+              "right": 663,
+              "width": 82,
+              "height": 20
+            },
+            "snippet": "<a href=\"#TN\">",
+            "nodeLabel": "Tennessee",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-444-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1390,
+              "bottom": 1667,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 277
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Civil Rights and Conflict Resolution Section\nArizona Attorney General's Office\n…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-200-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,1,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1402,
+              "bottom": 1525,
+              "left": 396,
+              "right": 540,
+              "width": 144,
+              "height": 122
+            },
+            "snippet": "<a href=\"https://www.azag.gov/civil-rights\">",
+            "nodeLabel": "Civil Rights and Conflict Resolution Section\nArizona Attorney General's Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-445-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,2,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1667,
+              "bottom": 1892,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Phoenix Equal Opportunity Department\n251 West Washington St., 7th Floor…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-201-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,2,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1679,
+              "bottom": 1750,
+              "left": 396,
+              "right": 558,
+              "width": 162,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://www.phoenix.gov/EOD/\">",
+            "nodeLabel": "City of Phoenix Equal Opportunity Department",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-202-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,3,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 1905,
+              "bottom": 1925,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-446-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,4,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 1939,
+              "bottom": 2139,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Arkansas Fair Housing Commission\n101 E. Capitol, Suite 114\nLittle Rock, AR 7220…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-204-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,4,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 1952,
+              "bottom": 1997,
+              "left": 396,
+              "right": 568,
+              "width": 172,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.fairhousing.arkansas.gov/\">",
+            "nodeLabel": "Arkansas Fair Housing Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-205-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,5,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 2152,
+              "bottom": 2172,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-447-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,6,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 2186,
+              "bottom": 2360,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "California Civil Rights Department\n2218 Kausen Drive\nSuite 100\nElk Grove, CA 95…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-207-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,6,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2198,
+              "bottom": 2244,
+              "left": 396,
+              "right": 561,
+              "width": 165,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://calcivilrights.ca.gov/\">",
+            "nodeLabel": "California Civil Rights Department",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-208-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,7,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 2373,
+              "bottom": 2393,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-448-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,8,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 2407,
+              "bottom": 2607,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Colorado Civil Rights Division\n1560 Broadway, Suite 1050\nDenver, CO 80202-5150\n…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-210-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,8,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2419,
+              "bottom": 2465,
+              "left": 396,
+              "right": 555,
+              "width": 159,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.colorado.gov/dora/civil-rights\">",
+            "nodeLabel": "Colorado Civil Rights Division",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-211-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,9,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 2620,
+              "bottom": 2640,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-449-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,10,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 2654,
+              "bottom": 2879,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Connecticut Commission on Human Rights and Opportunities\n21 Grand Street\nHartfo…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-213-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,10,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2666,
+              "bottom": 2763,
+              "left": 396,
+              "right": 538,
+              "width": 142,
+              "height": 97
+            },
+            "snippet": "<a href=\"https://www.ct.gov/chro/site/default.asp\">",
+            "nodeLabel": "Connecticut Commission on Human Rights and Opportunities",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-214-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,11,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 2892,
+              "bottom": 2912,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-450-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,12,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 2926,
+              "bottom": 3152,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Delaware Division of Human Relations\nState Office Building\n820 North French Str…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-216-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,12,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 2939,
+              "bottom": 2984,
+              "left": 396,
+              "right": 551,
+              "width": 155,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://statehumanrelations.delaware.gov/\">",
+            "nodeLabel": "Delaware Division of Human Relations",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-217-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,13,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 3164,
+              "bottom": 3184,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-451-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,14,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 3198,
+              "bottom": 3399,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "District of Columbia Office of Human Rights\n441 4th Street, NW, Suite 570\nWashi…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-219-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,14,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3211,
+              "bottom": 3257,
+              "left": 396,
+              "right": 570,
+              "width": 174,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://ohr.dc.gov/\">",
+            "nodeLabel": "District of Columbia Office of Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-220-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,15,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 3411,
+              "bottom": 3431,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-452-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,16,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 3445,
+              "bottom": 3543,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 98
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Florida Commission on Human Relations\n4075 Esplanade Way",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-222-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,16,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3458,
+              "bottom": 3503,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://fchr.myflorida.com/\" class=\"external\">",
+            "nodeLabel": "Florida Commission on Human Relations",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-453-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,17,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 3543,
+              "bottom": 3743,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td valign=\"top\" width=\"74%\">",
+            "nodeLabel": "Broward County Office of Equal Opportunity\n115 S. Andrews Avenue, Room 427\nFort…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-223-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,17,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3555,
+              "bottom": 3601,
+              "left": 396,
+              "right": 565,
+              "width": 169,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.broward.org/ProfessionalStandards/Pages/humanrights.aspx\" class=\"external\">",
+            "nodeLabel": "Broward County Office of Equal Opportunity",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-454-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,18,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 3743,
+              "bottom": 3943,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td valign=\"top\" width=\"74%\">",
+            "nodeLabel": "City of Orlando Office of Human Relations\n400 S. Orange Ave, City Hall, 2nd Flo…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-224-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,18,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 3756,
+              "bottom": 3801,
+              "left": 396,
+              "right": 556,
+              "width": 160,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.orlando.gov/Our-Government/Departments-Offices/Executive-Offic…\">",
+            "nodeLabel": "City of Orlando Office of Human Relations",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-455-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,19,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 3943,
+              "bottom": 4143,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td valign=\"top\" width=\"74%\">",
+            "nodeLabel": "Jacksonville Human Rights Commission\n117 West Duval Street, Suite 350\nJacksonvi…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-225-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,19,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 3956,
+              "bottom": 4001,
+              "left": 396,
+              "right": 550,
+              "width": 154,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.coj.net/departments/human-rights-commission.aspx\" class=\"external\">",
+            "nodeLabel": "Jacksonville Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-456-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,20,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 4143,
+              "bottom": 4369,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Palm Beach County Office of Equal Opportunity\n215 North Olive Avenue, Suite 130…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-226-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,20,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 4156,
+              "bottom": 4227,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 71
+            },
+            "snippet": "<a href=\"http://discover.pbcgov.org/equalopportunity/Pages/default.aspx\" class=\"external\">",
+            "nodeLabel": "Palm Beach County Office of Equal Opportunity",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-457-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,21,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 4369,
+              "bottom": 4595,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Pinellas County Office of Human Rights\n400 South Fort Harrison Avenue, 5th Floo…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-227-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,21,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 4382,
+              "bottom": 4427,
+              "left": 396,
+              "right": 562,
+              "width": 166,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://www.pinellascounty.org/Humanrights/default.htm\" class=\"external\">",
+            "nodeLabel": "Pinellas County Office of Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-458-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,22,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 4595,
+              "bottom": 4769,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Tampa Office of Community Relations\n102 East 7th Avenue\nTampa, FL 33602…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-228-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,22,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 4607,
+              "bottom": 4653,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.tampagov.net/housing-and-community-development/human-rights/fa…\" class=\"external\">",
+            "nodeLabel": "City of Tampa Office of Community Relations",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-229-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,23,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 4782,
+              "bottom": 4802,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-459-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,24,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 4816,
+              "bottom": 5067,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Georgia Commission on Equal Opportunity\n205 Jesse Hill Jr. Dr. SE 14th Floor – …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-231-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,24,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 4829,
+              "bottom": 4874,
+              "left": 396,
+              "right": 560,
+              "width": 164,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://gceo.georgia.gov/\">",
+            "nodeLabel": "Georgia Commission on Equal Opportunity",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-232-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,25,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 5080,
+              "bottom": 5100,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-460-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,26,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 5114,
+              "bottom": 5314,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Hawai'i Civil Rights Commission\n830 Punchbowl Street, Room 411\nHonolulu, HI 968…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-234-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,26,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 5127,
+              "bottom": 5172,
+              "left": 396,
+              "right": 544,
+              "width": 148,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://labor.hawaii.gov/hcrc/\">",
+            "nodeLabel": "Hawai'i Civil Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-235-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,27,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 5327,
+              "bottom": 5347,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-461-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,28,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 5361,
+              "bottom": 5561,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td height=\"22\" width=\"74%\">",
+            "nodeLabel": "Illinois Department of Human Rights\n100 W. Randolph St., Suite 10-100\nChicago, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-237-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,28,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 5373,
+              "bottom": 5419,
+              "left": 396,
+              "right": 562,
+              "width": 166,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://dhr.illinois.gov\">",
+            "nodeLabel": "Illinois Department of Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-238-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,29,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 5573,
+              "bottom": 5593,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-462-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,30,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 5608,
+              "bottom": 5859,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td height=\"20\" width=\"74%\">",
+            "nodeLabel": "Indiana Civil Rights Commission\nIndiana Government Center North\n100 North Senat…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-240-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,30,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 5620,
+              "bottom": 5666,
+              "left": 396,
+              "right": 545,
+              "width": 149,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.in.gov/icrc/\">",
+            "nodeLabel": "Indiana Civil Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-463-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,31,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 5859,
+              "bottom": 6085,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Elkhart Human Relations Commission Municipal Building\n201 South Second Street\nE…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-241-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,31,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 5871,
+              "bottom": 5943,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://elkhartindiana.org/\" class=\"external\">",
+            "nodeLabel": "Elkhart Human Relations Commission Municipal Building",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-464-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,32,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 6085,
+              "bottom": 6336,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Fort Wayne Metropolitan Human Relations Commission\nOne Main Street\nCity-County …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-242-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,32,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 6097,
+              "bottom": 6168,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 71
+            },
+            "snippet": "<a href=\"http://www.fortwaynemetro.org/\" class=\"external\">",
+            "nodeLabel": "Fort Wayne Metropolitan Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-465-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,33,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 6336,
+              "bottom": 6511,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Gary Human Relations Commission\n839 Broadway, Suite 107\nGary, IN 46402-2414\n(21…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-243-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,33,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 6348,
+              "bottom": 6394,
+              "left": 396,
+              "right": 569,
+              "width": 173,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://garyin.us/human-relations/\" class=\"external\">",
+            "nodeLabel": "Gary Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-466-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,34,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 6511,
+              "bottom": 6711,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Hammond Human Relations Commission\n5925 Calumet Avenue, Room 115\nHammond, IN 46…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-244-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,34,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 6523,
+              "bottom": 6569,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://www.gohammond.com/departments/human-relations/\" class=\"external\">",
+            "nodeLabel": "Hammond Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-467-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,35,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 6711,
+              "bottom": 6860,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 149
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "South Bend Human Rights Commission\n319 N Niles Ave\nSouth Bend, IN 46617\n(574) 2…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-245-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,35,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 6723,
+              "bottom": 6769,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://southbendin.gov/board/human-rights-commission/\">",
+            "nodeLabel": "South Bend Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-468-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,36,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 6860,
+              "bottom": 7188,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 328
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Evansville-Vanderburgh County Human Relations Commission\n209 Civic Cent…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-246-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,36,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 6872,
+              "bottom": 6969,
+              "left": 396,
+              "right": 555,
+              "width": 159,
+              "height": 97
+            },
+            "snippet": "<a href=\"http://www.evansvillegov.org/city/department/index.php?structureid=49\" class=\"external\">",
+            "nodeLabel": "City of Evansville-Vanderburgh County Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-247-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,37,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 7200,
+              "bottom": 7220,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-469-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,38,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 7234,
+              "bottom": 7460,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Iowa Civil Rights Commission\nGrimes State Office Building\n400 East 14th Street\n…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-249-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,38,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 7247,
+              "bottom": 7292,
+              "left": 396,
+              "right": 522,
+              "width": 126,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://icrc.iowa.gov/\">",
+            "nodeLabel": "Iowa Civil Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-470-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,39,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 7460,
+              "bottom": 7686,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Cedar Rapids Civil Rights Enforcement Agency\n425 Second Street SE, Suite 960\nCe…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-250-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,39,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 7473,
+              "bottom": 7544,
+              "left": 396,
+              "right": 547,
+              "width": 151,
+              "height": 71
+            },
+            "snippet": "<a href=\"http://www.cedar-rapids.org/local_government/city_boards_and_commissions/c…\" class=\"external\">",
+            "nodeLabel": "Cedar Rapids Civil Rights Enforcement Agency",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-471-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,40,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 7686,
+              "bottom": 7860,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Davenport Civil Rights Commission\n226 West 4th Street\nDavenport, IA 52801-1308\n…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-251-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,40,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 7698,
+              "bottom": 7744,
+              "left": 396,
+              "right": 567,
+              "width": 171,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://cityofdavenportiowa.com/government/civil_rights\" class=\"external\">",
+            "nodeLabel": "Davenport Civil Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-472-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,41,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 7860,
+              "bottom": 8061,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Des Moines Human Rights Commission\n602 Robert D. Ray Drive\nDes Moines, IA 50309…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-252-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,41,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 7873,
+              "bottom": 7919,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.dsm.city/departments/civil_and_human_rights/index.php\" class=\"external\">",
+            "nodeLabel": "Des Moines Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-473-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,42,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 8061,
+              "bottom": 8261,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Sioux City Human Rights Commission\n405 6th Street, Room 410\nSioux City, IA 5110…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-253-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,42,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 8073,
+              "bottom": 8119,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.sioux-city.org/government/departments-g-p/human-rights\" class=\"external\">",
+            "nodeLabel": "Sioux City Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-254-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,43,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 8273,
+              "bottom": 8293,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-474-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,44,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 8307,
+              "bottom": 8584,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 277
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Lawrence Human Relations Commission and Human Relations/Resources Dept.\n947 New…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-256-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,44,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 8320,
+              "bottom": 8442,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 122
+            },
+            "snippet": "<a href=\"http://lawrenceks.org/attorney/\" class=\"external\">",
+            "nodeLabel": "Lawrence Human Relations Commission and Human Relations/Resources Dept.",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-475-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,45,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 8584,
+              "bottom": 8733,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 149
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Salina Human Relations Department\n300 West Ash\nSalina, KS 67402-0736\n(785) 309-…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-257-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,45,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 8597,
+              "bottom": 8642,
+              "left": 396,
+              "right": 564,
+              "width": 168,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://www.salina-ks.gov/content/18394/18518/default.aspx\">",
+            "nodeLabel": "Salina Human Relations Department",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-258-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,46,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 8746,
+              "bottom": 8766,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-476-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,47,TR,4,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 8790,
+              "bottom": 8982,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Kentucky Commission on Human Rights\nThe Heyburn Bulding, 7th Floor\n332 West Bro…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-260-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,47,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 8792,
+              "bottom": 8836,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://kchr.ky.gov/Pages/index.aspx\">",
+            "nodeLabel": "Kentucky Commission on Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-477-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,48,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 9037,
+              "bottom": 9205,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 168
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Lexington-Fayette Urban County Human Rights Commission\n342 Waller Avenue\nSuite …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-261-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,48,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a.external",
+            "boundingRect": {
+              "top": 9039,
+              "bottom": 9107,
+              "left": 396,
+              "right": 562,
+              "width": 166,
+              "height": 68
+            },
+            "snippet": "<a href=\"http://www.lfuchrc.org/\" class=\"external\">",
+            "nodeLabel": "Lexington-Fayette Urban County Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-478-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,49,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 9226,
+              "bottom": 9418,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Louisville Metro Human Relations Commission\n745 W. Main Street Suite 251\nLouisv…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-262-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,49,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 9228,
+              "bottom": 9296,
+              "left": 396,
+              "right": 528,
+              "width": 132,
+              "height": 68
+            },
+            "snippet": "<a href=\"https://louisvilleky.gov/government/human-relations-commission\">",
+            "nodeLabel": "Louisville Metro Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-263-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,50,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 9441,
+              "bottom": 9461,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-479-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,51,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 9475,
+              "bottom": 9676,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Public Protection Division, Louisiana Department of Justice\n1885 North 3rd Stre…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-265-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,51,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 9488,
+              "bottom": 9559,
+              "left": 396,
+              "right": 564,
+              "width": 168,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://www.brla.gov/870/Fair-Housing\">",
+            "nodeLabel": "Public Protection Division, Louisiana Department of Justice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-266-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,52,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 9688,
+              "bottom": 9708,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-480-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,53,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 9722,
+              "bottom": 9897,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Maine Human Rights Commission\n51 State House Station\nAugusta, ME 04333-0051\n(20…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-268-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,53,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 9735,
+              "bottom": 9780,
+              "left": 396,
+              "right": 555,
+              "width": 159,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.maine.gov/mhrc/\">",
+            "nodeLabel": "Maine Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-269-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,54,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 9909,
+              "bottom": 9929,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-481-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,55,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 9943,
+              "bottom": 10143,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Maryland Commission on Civil Rights\n6 St. Paul Street, Suite 900\nBaltimore, MD …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-271-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,55,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 9956,
+              "bottom": 10001,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://mccr.maryland.gov/Pages/default.aspx\">",
+            "nodeLabel": "Maryland Commission on Civil Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-272-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,56,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 10156,
+              "bottom": 10176,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-482-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,57,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 10190,
+              "bottom": 10441,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Massachusetts Commission Against Discrimination\nRoom 601\n1 Ashburton Place, 6th…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-274-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,57,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 10203,
+              "bottom": 10274,
+              "left": 396,
+              "right": 552,
+              "width": 156,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://www.mass.gov/orgs/massachusetts-commission-against-discrimination\">",
+            "nodeLabel": "Massachusetts Commission Against Discrimination",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-483-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,58,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 10441,
+              "bottom": 10693,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Boston Fair Housing Commission\nCity of Boston Office of Civil Rights\nOne City H…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-275-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,58,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 10454,
+              "bottom": 10551,
+              "left": 396,
+              "right": 565,
+              "width": 169,
+              "height": 97
+            },
+            "snippet": "<a href=\"https://www.boston.gov/departments/fair-housing-and-equity\">",
+            "nodeLabel": "Boston Fair Housing Commission\nCity of Boston Office of Civil Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-484-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,59,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 10693,
+              "bottom": 10893,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Cambridge Human Rights Commission\n51 Inman Street, 2nd Floor\nCambridge, MA 0213…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-276-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,59,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 10705,
+              "bottom": 10751,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.cambridgema.gov/Departments/HumanRightsCommission\">",
+            "nodeLabel": "Cambridge Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-277-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,60,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 10905,
+              "bottom": 10925,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-485-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,61,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 10940,
+              "bottom": 11165,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Michigan Department of Civil Rights\nCapital Town Building\n110 W. Michigan Avenu…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-279-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,61,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 10952,
+              "bottom": 10998,
+              "left": 396,
+              "right": 561,
+              "width": 165,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.michigan.gov/mdcr/0,1607,7-138-42240---,00.html\">",
+            "nodeLabel": "Michigan Department of Civil Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-280-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,62,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 11178,
+              "bottom": 11198,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-486-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,64,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 11258,
+              "bottom": 11510,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of St. Paul Department of Human Rights and Equal Economic Opportunity Comm…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-282-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,64,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 11271,
+              "bottom": 11393,
+              "left": 396,
+              "right": 567,
+              "width": 171,
+              "height": 122
+            },
+            "snippet": "<a href=\"https://www.stpaul.gov/departments/human-rights-equal-economic-opportunity…\">",
+            "nodeLabel": "City of St. Paul Department of Human Rights and Equal Economic Opportunity Comm…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-283-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,65,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 11522,
+              "bottom": 11542,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-285-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,69,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 11709,
+              "bottom": 11729,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-487-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,70,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 11743,
+              "bottom": 12020,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 277
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Nebraska Equal Opportunity Commission\nState Office Building\n5th Floor\n301 Cente…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-287-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,70,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 11755,
+              "bottom": 11826,
+              "left": 396,
+              "right": 517,
+              "width": 121,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://neoc.nebraska.gov/\">",
+            "nodeLabel": "Nebraska Equal Opportunity Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-488-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,71,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 12020,
+              "bottom": 12220,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Lincoln Commission on Human Rights\n440 South 8th Street, Suite 101\nLincoln, NE …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-288-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,71,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 12032,
+              "bottom": 12078,
+              "left": 396,
+              "right": 550,
+              "width": 154,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.lincoln.ne.gov/city/attorn/human/complaint.htm\">",
+            "nodeLabel": "Lincoln Commission on Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-489-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,72,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 12220,
+              "bottom": 12471,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Omaha Human Relations Department\nOmaha/Douglas Civic Center\n1819 Farnam Street,…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-289-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,72,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 12232,
+              "bottom": 12278,
+              "left": 396,
+              "right": 564,
+              "width": 168,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://humanrights.cityofomaha.org/civil-rights\" class=\"external\">",
+            "nodeLabel": "Omaha Human Relations Department",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-290-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,73,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 12484,
+              "bottom": 12504,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-490-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,74,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 12518,
+              "bottom": 12718,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "State of New Jersey Division on Civil Rights\n140 East Front Street\nP.O. Box 089…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-292-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,74,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 12530,
+              "bottom": 12576,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.njoag.gov/about/divisions-and-offices/division-on-civil-rights…\">",
+            "nodeLabel": "State of New Jersey Division on Civil Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-293-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,75,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 12730,
+              "bottom": 12750,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-491-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,76,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 12765,
+              "bottom": 12965,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "New York State Division of Human Rights\n1 Fordham Plaza\n4th Floor\nBronx, NY 104…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-295-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,76,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 12777,
+              "bottom": 12848,
+              "left": 396,
+              "right": 536,
+              "width": 140,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://dhr.ny.gov/\">",
+            "nodeLabel": "New York State Division of Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-492-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,78,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 13011,
+              "bottom": 13288,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 277
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Westchester County Human Rights Commission\n112 East Post Road, 3rd Floor\nWhite …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-296-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,78,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 13024,
+              "bottom": 13095,
+              "left": 396,
+              "right": 548,
+              "width": 152,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://humanrights.westchestergov.com/\" class=\"external\">",
+            "nodeLabel": "Westchester County Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-297-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,79,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 13301,
+              "bottom": 13321,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-493-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,80,TR,4,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 13345,
+              "bottom": 13489,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 144
+            },
+            "snippet": "<p>",
+            "nodeLabel": "North Carolina Human Relations Commission\n1711 New Hope Church Rd\nRaleigh, NC 2…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-299-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,80,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 13347,
+              "bottom": 13391,
+              "left": 396,
+              "right": 568,
+              "width": 172,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://www.oah.nc.gov/civil-rights-division/human-relations-commission\">",
+            "nodeLabel": "North Carolina Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-494-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,81,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 13510,
+              "bottom": 13702,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "City of Charlotte/Mecklenburg County Community Relations Committee\n700 Parkwood…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-300-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,81,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 13512,
+              "bottom": 13604,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 92
+            },
+            "snippet": "<a href=\"https://charlottenc.gov/crc/Pages/default.aspx\">",
+            "nodeLabel": "City of Charlotte/Mecklenburg County Community Relations Committee",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-495-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,82,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 13757,
+              "bottom": 13949,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Durham Human Relations Commission\n101 City Hall Plaza(Mailing), 807 E. Main St.…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-301-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,82,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 13759,
+              "bottom": 13803,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://durhamnc.gov/617/Human-Relations\">",
+            "nodeLabel": "Durham Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-496-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,83,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 13994,
+              "bottom": 14194,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Greensboro Human Relations Department\n300 West Washington Street\nGreensboro, NC…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-302-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,83,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 14006,
+              "bottom": 14052,
+              "left": 396,
+              "right": 564,
+              "width": 168,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.greensboro-nc.gov/departments/human-rights/fair-housing\">",
+            "nodeLabel": "Greensboro Human Relations Department",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-497-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,84,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 14204,
+              "bottom": 14396,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Orange County Human Relations Commission\n100 Corporate Drive, Ste. 400, P.O. Bo…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-303-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,84,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 14206,
+              "bottom": 14250,
+              "left": 396,
+              "right": 569,
+              "width": 173,
+              "height": 44
+            },
+            "snippet": "<a href=\"http://www.orangecountync.gov/\">",
+            "nodeLabel": "Orange County Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-498-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,85,TR,3,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 14417,
+              "bottom": 14585,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 168
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Winston-Salem Human Relations Commission\nCity Hall, Suite 109\n101 N. Main Stree…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-304-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,85,TR,3,TD,0,P,0,A",
+            "selector": "tr > td > p > a.external",
+            "boundingRect": {
+              "top": 14419,
+              "bottom": 14463,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://www.cityofws.org/419/Human-Relations\" class=\"external\">",
+            "nodeLabel": "Winston-Salem Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-305-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,86,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 14608,
+              "bottom": 14628,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-499-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,87,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 14643,
+              "bottom": 14920,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 277
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "North Dakota Department of Labor\nState Capitol - 13th Floor\n600 E Boulevard Ave…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-307-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,87,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 14655,
+              "bottom": 14701,
+              "left": 396,
+              "right": 554,
+              "width": 158,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.nd.gov/labor/human-rights/housing\">",
+            "nodeLabel": "North Dakota Department of Labor",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-308-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,88,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 14932,
+              "bottom": 14952,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-500-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,89,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 14966,
+              "bottom": 15166,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Ohio Civil Rights Commission\n30 East Broad Street, 5th Floor\nColumbus, OH 43215…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-310-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,89,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 14979,
+              "bottom": 15024,
+              "left": 396,
+              "right": 522,
+              "width": 126,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://crc.ohio.gov/\">",
+            "nodeLabel": "Ohio Civil Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-501-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,90,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 15166,
+              "bottom": 15341,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Canton Fair Housing Commission\n218 Cleveland Avenue SW\nCanton, OH 44702…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-311-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,90,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 15179,
+              "bottom": 15224,
+              "left": 396,
+              "right": 557,
+              "width": 161,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.cantonohio.gov/271/Fair-Housing\">",
+            "nodeLabel": "City of Canton Fair Housing Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-502-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,91,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 15341,
+              "bottom": 15541,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Dayton Human Relations Council\n371 West 2nd Street, Suite 100\nDayton, OH 45402-…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-312-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,91,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 15353,
+              "bottom": 15399,
+              "left": 396,
+              "right": 529,
+              "width": 133,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://daytonhrc.org/\" class=\"external\">",
+            "nodeLabel": "Dayton Human Relations Council",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-503-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,92,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 15541,
+              "bottom": 15716,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Shaker Heights Fair Housing Review Board\n3400 Lee Road\nShaker Heights, OH 44120…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-313-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,92,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 15553,
+              "bottom": 15599,
+              "left": 396,
+              "right": 567,
+              "width": 171,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.shakeronline.com/323/Fair-Housing-Review-Board\" class=\"external\">",
+            "nodeLabel": "Shaker Heights Fair Housing Review Board",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-314-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,93,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 15728,
+              "bottom": 15748,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-316-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,95,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 15821,
+              "bottom": 15841,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-504-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,96,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 15855,
+              "bottom": 16055,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Pennsylvania Human Relations Commission\n333 Market Street,8th Floor\nHarrisburg,…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-318-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,96,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 15868,
+              "bottom": 15913,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.phrc.pa.gov/Pages/default.aspx\">",
+            "nodeLabel": "Pennsylvania Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-505-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,97,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 16055,
+              "bottom": 16256,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Pittsburgh Human Relations Commission\n908 City - County Building\nPittsburgh, PA…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-319-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,97,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 16068,
+              "bottom": 16114,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://pittsburghpa.gov/chr/\">",
+            "nodeLabel": "Pittsburgh Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-320-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,98,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 16268,
+              "bottom": 16288,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-506-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,99,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 16302,
+              "bottom": 16528,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Rhode Island Commission for Human Rights\n180 Westminster Street, 3rd Floor\nProv…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-322-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,99,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 16315,
+              "bottom": 16386,
+              "left": 396,
+              "right": 515,
+              "width": 119,
+              "height": 71
+            },
+            "snippet": "<a href=\"http://www.richr.ri.gov/\">",
+            "nodeLabel": "Rhode Island Commission for Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-323-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,100,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 16540,
+              "bottom": 16560,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-507-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,101,TR,4,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 16585,
+              "bottom": 16729,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 144
+            },
+            "snippet": "<p>",
+            "nodeLabel": "South Carolina Human Affairs Commission\n1026 Sumter Street, Suite 101\nColumbia,…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-325-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,101,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 16587,
+              "bottom": 16631,
+              "left": 396,
+              "right": 568,
+              "width": 172,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://www.schac.sc.gov/\">",
+            "nodeLabel": "South Carolina Human Affairs Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-326-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,102,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 16752,
+              "bottom": 16772,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-508-P",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,103,TR,4,TD,0,P",
+            "selector": "tbody > tr > td > p",
+            "boundingRect": {
+              "top": 16797,
+              "bottom": 16989,
+              "left": 396,
+              "right": 572,
+              "width": 176,
+              "height": 192
+            },
+            "snippet": "<p>",
+            "nodeLabel": "Tennessee Human Rights Commission\n312 Rosa L. Parks Avenue\n23rd Floor\nNashville…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-328-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,103,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 16799,
+              "bottom": 16843,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 44
+            },
+            "snippet": "<a href=\"https://www.tn.gov/humanrights.html\">",
+            "nodeLabel": "Tennessee Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-509-SUP",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,103,TR,4,TD,0,P,5,SUP",
+            "selector": "tr > td > p > sup",
+            "boundingRect": {
+              "top": 16893,
+              "bottom": 16908,
+              "left": 416,
+              "right": 429,
+              "width": 13,
+              "height": 15
+            },
+            "snippet": "<sup>",
+            "nodeLabel": "rd",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-329-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,104,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 17012,
+              "bottom": 17032,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-510-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,105,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 17046,
+              "bottom": 17246,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Texas Workforce Commission\nCivil Rights Division\n101 E. 15th Guadalupe\nAustin, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-331-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,105,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 17058,
+              "bottom": 17104,
+              "left": 396,
+              "right": 522,
+              "width": 126,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://twc.texas.gov/partners/civil-rights-discrimination\">",
+            "nodeLabel": "Texas Workforce Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-511-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,106,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 17246,
+              "bottom": 17472,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Austin Equal Employment and Fair Housing Office\n1050 East 11th Street, …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-332-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,106,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 17258,
+              "bottom": 17330,
+              "left": 396,
+              "right": 561,
+              "width": 165,
+              "height": 71
+            },
+            "snippet": "<a href=\"http://www.austintexas.gov/department/equal-employment-and-fair-housing-of…\">",
+            "nodeLabel": "City of Austin Equal Employment and Fair Housing Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-512-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,107,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 17472,
+              "bottom": 17672,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Corpus Christi Department of Human Relations\n1201 Leopard Street\nCorpus…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-333-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,107,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 17484,
+              "bottom": 17555,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://www.cctexas.com/humanrelations\" class=\"external\">",
+            "nodeLabel": "City of Corpus Christi Department of Human Relations",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-513-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,108,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 17672,
+              "bottom": 17846,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 175
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "City of Dallas Fair Housing Office\n1500 Marilla Street, Room 1B North\nDallas, T…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-334-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,108,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 17684,
+              "bottom": 17730,
+              "left": 396,
+              "right": 529,
+              "width": 133,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://dallascityhall.com/departments/fairhousing/Pages/default.aspx\" class=\"external\">",
+            "nodeLabel": "City of Dallas Fair Housing Office",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-514-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,109,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 17846,
+              "bottom": 18047,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Fort Worth Human Relations Commission\n1000 Throckmorton Street\nFort Worth, TX 7…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-335-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,109,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 17859,
+              "bottom": 17904,
+              "left": 396,
+              "right": 566,
+              "width": 170,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.fortworthtexas.gov/departments/citysecretary/events/human-rela…\">",
+            "nodeLabel": "Fort Worth Human Relations Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-336-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,111,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 18106,
+              "bottom": 18126,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-515-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,112,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 18140,
+              "bottom": 18365,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Utah Anti-Discrimination Division\n160 East 300 South, 3rd Floor\nSalt Lake City,…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-338-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,112,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 18152,
+              "bottom": 18223,
+              "left": 396,
+              "right": 509,
+              "width": 113,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://laborcommission.utah.gov/divisions/utah-antidiscrimination-and-lab…\">",
+            "nodeLabel": "Utah Anti-Discrimination Division",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-339-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,113,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 18378,
+              "bottom": 18398,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-516-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,114,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 18412,
+              "bottom": 18612,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Vermont Human Rights Commission\n135 State Street, Drawer 33,\nMontpelier, VT 056…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-341-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,114,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 18425,
+              "bottom": 18470,
+              "left": 396,
+              "right": 543,
+              "width": 147,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://hrc.vermont.gov/\">",
+            "nodeLabel": "Vermont Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-342-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,115,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 18625,
+              "bottom": 18645,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-517-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,116,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 18659,
+              "bottom": 18987,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 328
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Virginia Department of Professional and Occupational Regulation Fair Housing Ad…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-344-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,116,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 18671,
+              "bottom": 18845,
+              "left": 396,
+              "right": 571,
+              "width": 175,
+              "height": 174
+            },
+            "snippet": "<a href=\"http://www.dpor.virginia.gov/FairHousing/\">",
+            "nodeLabel": "Virginia Department of Professional and Occupational Regulation Fair Housing Ad…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-518-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,117,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 18987,
+              "bottom": 19213,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 226
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Fairfax County Human Rights Commission\n12000 Government Center Parkway,\nSuite 3…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-345-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,117,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 18999,
+              "bottom": 19045,
+              "left": 396,
+              "right": 567,
+              "width": 171,
+              "height": 46
+            },
+            "snippet": "<a href=\"https://www.fairfaxcounty.gov/humanrights/\">",
+            "nodeLabel": "Fairfax County Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-346-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,118,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 19225,
+              "bottom": 19245,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-519-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,119,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 19259,
+              "bottom": 19511,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 251
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Washington State Human Rights Commission\n711 South Capitol Way, #402,\nP.O. Box …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-348-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,119,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 19272,
+              "bottom": 19343,
+              "left": 396,
+              "right": 529,
+              "width": 133,
+              "height": 71
+            },
+            "snippet": "<a href=\"https://www.hum.wa.gov/\">",
+            "nodeLabel": "Washington State Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-520-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,120,TR,3,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 19511,
+              "bottom": 19711,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "Office of Equity and Human Rights\nCity of Tacoma\n747 Market Street\nRoom 1044\nTa…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-349-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,120,TR,3,TD,0,A",
+            "selector": "tbody > tr > td > a.external",
+            "boundingRect": {
+              "top": 19523,
+              "bottom": 19569,
+              "left": 396,
+              "right": 544,
+              "width": 148,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://www.cityoftacoma.org/government/city_departments/equity_and_human_r…\" class=\"external\">",
+            "nodeLabel": "Office of Equity and Human Rights",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-350-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,122,TR,3,TD,0,DIV,0,A",
+            "selector": "tr > td > div > a",
+            "boundingRect": {
+              "top": 19770,
+              "bottom": 19790,
+              "left": 488,
+              "right": 572,
+              "width": 84,
+              "height": 20
+            },
+            "snippet": "<a href=\"#top\">",
+            "nodeLabel": "Back to top",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-521-TD",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,123,TR,4,TD",
+            "selector": "table > tbody > tr > td",
+            "boundingRect": {
+              "top": 19804,
+              "bottom": 20004,
+              "left": 386,
+              "right": 583,
+              "width": 197,
+              "height": 200
+            },
+            "snippet": "<td width=\"74%\">",
+            "nodeLabel": "West Virginia Human Rights Commission\n1321 Plaza East, Room 108A\nCharleston, WV…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.75 (foreground color: #000000, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-352-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,7,TABLE,0,TBODY,123,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 19816,
+              "bottom": 19862,
+              "left": 396,
+              "right": 558,
+              "width": 162,
+              "height": 46
+            },
+            "snippet": "<a href=\"http://hrc.wv.gov/Pages/default.aspx\">",
+            "nodeLabel": "West Virginia Human Rights Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 210
+  }
+]

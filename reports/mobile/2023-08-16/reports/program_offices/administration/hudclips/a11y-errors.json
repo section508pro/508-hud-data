@@ -1,0 +1,148 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-155-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-156-FORM",
+            "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM",
+            "selector": "div.field-item > div.ttlwrapper > div.ttlbg > form#search-form2",
+            "boundingRect": {
+              "top": 1772,
+              "bottom": 1850,
+              "left": 61,
+              "right": 351,
+              "width": 290,
+              "height": 78
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search/docs\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form2\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "HUDClips\nHUDClips Forms\nHUDClips Handbooks\nHUDClips Letters\nHUDClips Guidebooks…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-157-INPUT",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM,1,DIV,0,DIV,1,INPUT",
+            "selector": "form#search-form > div.searchboxblock > div.input-group > input#query-field",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<input class=\"form-control\" id=\"query-field\" name=\"query\" placeholder=\"Search\" type=\"text\">",
+            "nodeLabel": "form#search-form > div.searchboxblock > div.input-group > input#query-field",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: query-field"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-153-INPUT",
+                  "path": "1,HTML,1,BODY,6,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,1,DIV,0,DIV,0,INPUT",
+                  "selector": "div#custom-search-input2 > div.row > div.col-xs-10 > input#query-field",
+                  "boundingRect": {
+                    "top": 1816,
+                    "bottom": 1850,
+                    "left": 46,
+                    "right": 313,
+                    "width": 267,
+                    "height": 34
+                  },
+                  "snippet": "<input class=\"form-control input-md\" id=\"query-field\" name=\"query\" placeholder=\"Search\" type=\"text\">",
+                  "nodeLabel": "div#custom-search-input2 > div.row > div.col-xs-10 > input#query-field"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

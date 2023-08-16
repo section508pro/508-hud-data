@@ -1,0 +1,297 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-588-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 67,
+              "left": 291,
+              "right": 331,
+              "width": 40,
+              "height": 67
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-589-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,P,0,STRONG,0,SPAN",
+            "selector": "td > p.ttlred > strong > span",
+            "boundingRect": {
+              "top": 758,
+              "bottom": 778,
+              "left": 481,
+              "right": 632,
+              "width": 151,
+              "height": 20
+            },
+            "snippet": "<span style=\"color:#FFFFFF;\">",
+            "nodeLabel": "ONAP PROGRAMS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #ffffff, background color: #6699cc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-590-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 744,
+                    "bottom": 791,
+                    "left": 62,
+                    "right": 1051,
+                    "width": 989,
+                    "height": 47
+                  },
+                  "snippet": "<td colspan=\"9\" style=\"background-color: rgb(102, 153, 204); text-align: center;\">",
+                  "nodeLabel": "ONAP PROGRAMS"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-591-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,P,0,STRONG,0,SPAN",
+            "selector": "td > p.ttlred > strong > span",
+            "boundingRect": {
+              "top": 921,
+              "bottom": 941,
+              "left": 500,
+              "right": 614,
+              "width": 114,
+              "height": 20
+            },
+            "snippet": "<span style=\"color:#FFFFFF;\">",
+            "nodeLabel": "QUICK LINKS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #ffffff, background color: #6699cc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-592-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,TABLE,0,TBODY,2,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 907,
+                    "bottom": 954,
+                    "left": 62,
+                    "right": 1051,
+                    "width": 989,
+                    "height": 47
+                  },
+                  "snippet": "<td colspan=\"9\" style=\"background-color: rgb(102, 153, 204); text-align: center;\">",
+                  "nodeLabel": "QUICK LINKS"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-593-H4",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,6,H4",
+            "selector": "div.field > div.field-items > div.field-item > h4",
+            "boundingRect": {
+              "top": 1186,
+              "bottom": 1274,
+              "left": 61,
+              "right": 351,
+              "width": 290,
+              "height": 88
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Section 184 Program Approved Program Area Expansion and 2023 Section 184 Maximu…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-425-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,2,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 17698,
+              "bottom": 17718,
+              "left": 72,
+              "right": 105,
+              "width": 33,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:Codetalk@hud.gov\">",
+            "nodeLabel": "tbody > tr > td > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-429-A",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,4,TR,0,TD,0,A",
+            "selector": "tbody > tr > td > a",
+            "boundingRect": {
+              "top": 17804,
+              "bottom": 17824,
+              "left": 72,
+              "right": 105,
+              "width": 33,
+              "height": 20
+            },
+            "snippet": "<a href=\"/subscribe/signup?listname=What's%20New%20on%20Codetalk&amp;list=CODETALK-L\">",
+            "nodeLabel": "tbody > tr > td > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
