@@ -1,0 +1,276 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-447-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 52,
+              "bottom": 166,
+              "left": 917,
+              "right": 1117,
+              "width": 200,
+              "height": 114
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-input-field-name",
+    "title": "ARIA input fields do not have accessible names",
+    "description": "When an input field doesn't have an accessible name, screen readers announce it with a generic name, making it unusable for users who rely on screen readers. [Learn more](https://web.dev/aria-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-448-DIV",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div.row > div > div#myCarousel > div.carousel-inner",
+            "boundingRect": {
+              "top": 310,
+              "bottom": 761,
+              "left": 178,
+              "right": 919,
+              "width": 741,
+              "height": 451
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "Multifamily Housing: West Region, Pancratia Hall Case Study",
+            "explanation": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-448-DIV",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div.row > div > div#myCarousel > div.carousel-inner",
+            "boundingRect": {
+              "top": 310,
+              "bottom": 761,
+              "left": 178,
+              "right": 919,
+              "width": 741,
+              "height": 451
+            },
+            "snippet": "<div class=\"carousel-inner\" role=\"listbox\">",
+            "nodeLabel": "Multifamily Housing: West Region, Pancratia Hall Case Study",
+            "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, option"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-449-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD,0,H3,0,U,0,SPAN,0,A,0,SPAN",
+            "selector": "u > span > a > span",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1141,
+              "left": 235,
+              "right": 536,
+              "width": 301,
+              "height": 50
+            },
+            "snippet": "<span style=\"color:#0000CD;\">",
+            "nodeLabel": "Multifamily Housing COVID-19 Guidance",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.91 (foreground color: #0000cd, background color: #999999, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-450-TD",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+                  "selector": "table > tbody > tr > td",
+                  "boundingRect": {
+                    "top": 1063,
+                    "bottom": 1158,
+                    "left": 199,
+                    "right": 572,
+                    "width": 373,
+                    "height": 95
+                  },
+                  "snippet": "<td style=\"width: 368px; background-color: rgb(153, 153, 153);\">",
+                  "nodeLabel": "Multifamily Housing COVID-19 Guidance"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-451-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,2,P,0,B,0,SPAN",
+            "selector": "div.field-item > p > b > span",
+            "boundingRect": {
+              "top": 312,
+              "bottom": 332,
+              "left": 944,
+              "right": 1051,
+              "width": 107,
+              "height": 20
+            },
+            "snippet": "<span style=\"color:#FF0000;\">",
+            "nodeLabel": "What's New!",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-452-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 264,
+                    "bottom": 2207,
+                    "left": 183,
+                    "right": 1167,
+                    "width": 984,
+                    "height": 1942
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / Multifamily\n    \nMultifamily Housing: West R…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

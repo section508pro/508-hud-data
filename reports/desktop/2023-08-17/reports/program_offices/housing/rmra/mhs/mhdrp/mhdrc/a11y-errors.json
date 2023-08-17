@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-520-FORM",
+            "path": "1,HTML,1,BODY,5,HEADER,0,DIV,0,DIV,0,NAV,0,DIV,3,SECTION,0,FORM",
+            "selector": "nav > div.region > section#block-block-20 > form#search-form",
+            "boundingRect": {
+              "top": 94,
+              "bottom": 225,
+              "left": 877,
+              "right": 1117,
+              "width": 240,
+              "height": 131
+            },
+            "snippet": "<form action=\"https://search.usa.gov/search\" aria-expanded=\"true\" class=\"form-search form-horizontal collapse in\" id=\"search-form\" method=\"get\" style=\"\" target=\"_blank\">",
+            "nodeLabel": "Search",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-0-A",
+            "path": "1,HTML,1,BODY,0,DIV,0,A",
+            "selector": "body.html > div#skip-link > a.element-invisible",
+            "boundingRect": {
+              "top": 2,
+              "bottom": 22,
+              "left": 0,
+              "right": 157,
+              "width": 157,
+              "height": 20
+            },
+            "snippet": "<a href=\"#main-content\" class=\"element-invisible element-focusable\">",
+            "nodeLabel": "Skip to main content",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #005ebd, background color: #163667, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-521-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.html",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 12431,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 12431
+                  },
+                  "snippet": "<body class=\"html not-front not-logged-in no-sidebars page-node page-node- page-node-24…\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.html"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-522-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,1,TD,0,P,0,STRONG,0,FONT,1,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 392,
+              "right": 413,
+              "width": 21,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "AK",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-524-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,4,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 556,
+              "right": 576,
+              "width": 20,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "CA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-525-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,6,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 666,
+              "right": 687,
+              "width": 21,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "CT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-526-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,7,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 721,
+              "right": 742,
+              "width": 21,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "DE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-527-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,8,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 777,
+              "right": 798,
+              "width": 21,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "DC",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-528-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,11,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 945,
+              "right": 963,
+              "width": 18,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "HI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-529-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,0,TR,12,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1057,
+              "bottom": 1075,
+              "left": 1001,
+              "right": 1018,
+              "width": 17,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "ID",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-530-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,0,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 332,
+              "right": 347,
+              "width": 15,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "IL",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-531-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,1,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 388,
+              "right": 406,
+              "width": 18,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "IN",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-532-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,2,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 445,
+              "right": 461,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "IA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-533-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,5,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 609,
+              "right": 628,
+              "width": 19,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "LA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-534-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,7,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 721,
+              "right": 745,
+              "width": 24,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "MD",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-535-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,8,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 777,
+              "right": 800,
+              "width": 23,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "MA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-536-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,1,TR,9,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1137,
+              "bottom": 1155,
+              "left": 832,
+              "right": 851,
+              "width": 19,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "MI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-537-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,2,TR,0,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1235,
+              "left": 332,
+              "right": 356,
+              "width": 24,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "MT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-538-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,2,TR,1,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1235,
+              "left": 388,
+              "right": 410,
+              "width": 22,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "NE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-539-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,2,TR,4,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1235,
+              "left": 556,
+              "right": 576,
+              "width": 20,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "NJ",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-540-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,2,TR,8,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1235,
+              "left": 777,
+              "right": 800,
+              "width": 23,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "ND",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-541-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,2,TR,12,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1235,
+              "left": 1001,
+              "right": 1020,
+              "width": 19,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "PA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-542-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,0,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 332,
+              "right": 348,
+              "width": 16,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "RI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-543-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,1,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 388,
+              "right": 407,
+              "width": 19,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "SC",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-544-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,5,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 609,
+              "right": 631,
+              "width": 22,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "UT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-545-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,6,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 666,
+              "right": 687,
+              "width": 21,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "VT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-546-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,10,TD,0,P,0,STRONG,0,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 888,
+              "right": 908,
+              "width": 20,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "WI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-547-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,5,CENTER,0,TABLE,0,TBODY,3,TR,11,TD,0,P,0,STRONG,1,FONT,0,A,0,SPAN",
+            "selector": "strong > font > a > span",
+            "boundingRect": {
+              "top": 1297,
+              "bottom": 1315,
+              "left": 945,
+              "right": 969,
+              "width": 24,
+              "height": 18
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "WY",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-548-SPAN",
+            "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,7,P,1,SPAN",
+            "selector": "div.row > div.col-md-12 > p > span",
+            "boundingRect": {
+              "top": 1405,
+              "bottom": 1425,
+              "left": 692,
+              "right": 764,
+              "width": 72,
+              "height": 20
+            },
+            "snippet": "<span style=\"color:#FF8C00;\">",
+            "nodeLabel": "in orange",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.33 (foreground color: #ff8c00, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "13-523-DIV",
+                  "path": "1,HTML,1,BODY,8,DIV,0,DIV,0,SECTION,2,DIV",
+                  "selector": "div#hudgov-main-container > div#hud-contentarea > section.col-sm-12 > div.region",
+                  "boundingRect": {
+                    "top": 561,
+                    "bottom": 10431,
+                    "left": 163,
+                    "right": 1187,
+                    "width": 1024,
+                    "height": 9870
+                  },
+                  "snippet": "<div class=\"region region-content\">",
+                  "nodeLabel": "Home / Program Offices / Housing / RMRA / OMHP / Manufactured Home Dispute Reso…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 27
+  }
+]
