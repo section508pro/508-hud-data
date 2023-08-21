@@ -1,0 +1,12 @@
+{
+  "aria-allowed-attr": 32,
+  "label": 10,
+  "color-contrast": 7,
+  "definition-list": 3,
+  "link-name": 2,
+  "tabindex": 2,
+  "heading-order": 1,
+  "aria-input-field-name": 1,
+  "aria-required-children": 1,
+  "duplicate-id-active": 1
+}
